@@ -2,6 +2,7 @@
 from flask import Flask, request
 import telegram
 import re
+from time import sleep
 from telebot.config import BOT_TOKEN, BOT_USERNAME, CALLBACK_URL
 
 global bot
@@ -43,7 +44,6 @@ def respond():
            url = "Lujaaan, no me escribas {}".format(text.strip())
            # reply with a photo to the name the user sent,
            # note that you can send photos by url and telegram will fetch it for you
-           print('asdasd')
            bot.sendChatAction(chat_id=chat_id, action="typing")
            sleep(1.5)
            bot.send_message(chat_id=chat_id, reply_to_message_id=msg_id, text=url)
