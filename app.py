@@ -29,7 +29,7 @@ def respond():
    if text == "/start":
        # print the welcoming message
        bot_welcome = """
-       PH237, http://avatars.adorable.io/ to generate cool looking avatars based on the name you enter so please enter a name and the bot will reply with an avatar for your name.
+       PH237, HOLA LUJAN
        """
        # send the welcoming message
        bot.sendMessage(chat_id=chat_id, text=bot_welcome, reply_to_message_id=msg_id)
@@ -42,13 +42,15 @@ def respond():
            url = "Lujaaan, no me escribas {}".format(text.strip())
            # reply with a photo to the name the user sent,
            # note that you can send photos by url and telegram will fetch it for you
+           print('asdasd')
            bot.sendChatAction(chat_id=chat_id, action="typing")
            sleep(1.5)
-           bot.send_message(chat_id=chat_id, reply_to_message_id=msg_id, text=text)
+           bot.send_message(chat_id=chat_id, reply_to_message_id=msg_id, text=url)
            #bot.sendPhoto(chat_id=chat_id, photo=url, reply_to_message_id=msg_id)
-       except Exception:
+       except Exception as error:
            # if things went wrong
            bot.sendMessage(chat_id=chat_id, text="There was a problem in the name you used, please enter different name", reply_to_message_id=msg_id)
+           print(error)
 
    return 'ok'
 
