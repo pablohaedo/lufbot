@@ -34,6 +34,7 @@ def respond():
        PH237, HOLA LUJAN
        """
        # send the welcoming message
+       
        bot.sendMessage(chat_id=chat_id, text=bot_welcome, reply_to_message_id=msg_id)
 
    else:
@@ -44,9 +45,17 @@ def respond():
            url = "Lujaaan, no me escribas {}".format(text.strip())
            # reply with a photo to the name the user sent,
            # note that you can send photos by url and telegram will fetch it for you
+           if text == 'GOLPEAR':
+               url='Golpear no esta bien'
            bot.sendChatAction(chat_id=chat_id, action="typing")
+           if text == 'ABRAZAR':
+               url='Love is love'
            sleep(1.5)
-           bot.send_message(chat_id=chat_id, reply_to_message_id=msg_id, text=url)
+           keyboard=[['GOLPEAR','ABRAZAR']]
+           reply_markup = telegram.ReplyKeyboardMarkup(keyboard,
+                one_time_keyboard=True,
+                resize_keyboard=True)
+           bot.send_message(chat_id=chat_id, reply_to_message_id=msg_id, text=url, reply_markup=reply_markup)
            #bot.sendPhoto(chat_id=chat_id, photo=url, reply_to_message_id=msg_id)
        except Exception as error:
            # if things went wrong
