@@ -25,6 +25,9 @@ def respond():
    msg_id = update.message.message_id
 
    # Telegram understands UTF-8, so encode text for unicode compatibility
+   if update.message.text is undefined:
+       bot.sendMessage(chat_id=chat_id, text='que hago aca', reply_to_message_id=msg_id)
+
    text = update.message.text.encode('utf-8').decode()
    # for debugging purposes only
    print("got text message :", text)
