@@ -34,7 +34,7 @@ def respond():
        bot.sendMessage(chat_id=chat_id, text='que hago aca?', reply_to_message_id=msg_id)
        return 'ok'
 
-    bot.sendMessage(chat_id=-492044533, text='MANDO SIEMPRE A ESTE CHAT')
+   bot.sendMessage(chat_id=-492044533, text='MANDO SIEMPRE A ESTE CHAT')
 
 #    chatInfo = bot.getChat(chat_id)
 #    print(chatInfo)
