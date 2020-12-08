@@ -24,18 +24,18 @@ def respond():
    chat_id = update.message.chat.id
    msg_id = update.message.message_id
 
-   bot.sendMessage(chat_id=chat_id, text='bot_welcome', reply_to_message_id=msg_id)
+   #bot.sendMessage(chat_id=chat_id, text='bot_welcome', reply_to_message_id=msg_id)
    
-   return 'ok'
-   
+   #return 'ok'
+
    # Telegram understands UTF-8, so encode text for unicode compatibility
-   if not 'text' in update.message:
+   if update.message.text is None:
        print('sale por falta de text???')
-       #bot.sendMessage(chat_id=chat_id, text='que hago aca', reply_to_message_id=msg_id)
+       bot.sendMessage(chat_id=chat_id, text='que hago aca?', reply_to_message_id=msg_id)
        return 'ok'
 
-   chatInfo = bot.getChat(chat_id)
-   print(chatInfo)
+#    chatInfo = bot.getChat(chat_id)
+#    print(chatInfo)
    text = update.message.text.encode('utf-8').decode()
    # for debugging purposes only
    print("got text message :", text)
