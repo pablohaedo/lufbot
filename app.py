@@ -108,7 +108,9 @@ def db():
         conn.close()
         return 'ok'
     except Exception as error:
-        return error
+        print('LLEGA ACAAAA')
+        print(error)
+        return '.'
 
 @app.route('/db', methods=['GET'])
 def dbSelect():
@@ -122,7 +124,9 @@ def dbSelect():
         conn.close()
         return 'ook'
     except Exception as error:
-        return error
+        print('LLEGA')
+        print(error)
+        return '.'
 
 
 
