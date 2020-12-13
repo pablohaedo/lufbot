@@ -122,7 +122,7 @@ def dbSelect():
         print(ret)
         cur.close()
         conn.close()
-        return 'ook'
+        return ret
     except Exception as error:
         print('LLEGA')
         print(error)
