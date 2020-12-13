@@ -21,10 +21,24 @@ def respond():
    # retrieve the message in JSON and then transform it to Telegram object
    update = telegram.Update.de_json(request.get_json(force=True), bot)
 
+   print(update)
    chat_id = update.message.chat.id
    msg_id = update.message.message_id
 
+   #bot.sendMessage(chat_id=chat_id, text='bot_welcome', reply_to_message_id=msg_id)
+   
+   #return 'ok'
+
    # Telegram understands UTF-8, so encode text for unicode compatibility
+   if update.message.text is None:
+       print('sale por falta de text???')
+       bot.sendMessage(chat_id=chat_id, text='que hago aca?', reply_to_message_id=msg_id)
+       return 'ok'
+
+   bot.sendMessage(chat_id=-492044533, text='MANDO SIEMPRE A ESTE CHAT')
+
+#    chatInfo = bot.getChat(chat_id)
+#    print(chatInfo)
    text = update.message.text.encode('utf-8').decode()
    # for debugging purposes only
    print("got text message :", text)
