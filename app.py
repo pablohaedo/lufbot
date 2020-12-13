@@ -3,7 +3,8 @@ from flask import Flask, request
 import telegram
 import re
 from time import sleep
-from telebot.config import BOT_TOKEN, BOT_USERNAME, CALLBACK_URL
+from telebot.config import BOT_TOKEN, BOT_USERNAME, CALLBACK_URL, DATABASE_URL
+import psycopg2
 
 global bot
 global TOKEN
@@ -78,6 +79,18 @@ def set_webhook():
 @app.route('/')
 def index():
     return '.'
+
+@app.route('/db')
+def index():
+    try:
+        conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+        cur = conn.cursor()
+        res = cur.execute("""create database bot;""")
+        return res
+    except Exception as error:
+        return error
+    
+
 
 if __name__ == '__main__':
     # note the threaded arg which allow
