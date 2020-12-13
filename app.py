@@ -106,6 +106,7 @@ def db():
         # commit the changes
         conn.commit()
         conn.close()
+        return 'ok'
     except Exception as error:
         return error
 
@@ -116,9 +117,10 @@ def dbSelect():
         cur = conn.cursor()
         cur.execute("SELECT * FROM test;")
         ret = cur.fetchone()
+        print(ret)
         cur.close()
         conn.close()
-        return ret
+        return 'ook'
     except Exception as error:
         return error
 
