@@ -94,16 +94,34 @@ def set_webhook():
 def index():
     return '.'
 
-@app.route('/db', methods=['GET'])
+@app.route('/dbStart', methods=['GET'])
 def db():
     try:
         conn = psycopg2.connect(DATABASE_URL, sslmode='require')
         cur = conn.cursor()
-        res = cur.execute("""create database bot;""")
-        return res
+        cur.execute("""create database bot;""")
+        cur.execute("CREATE TABLE test (id serial PRIMARY KEY, num integer, data varchar);")
+        cur.execute("INSERT INTO test (num, data) VALUES (%s, %s)", (100, "abc'def"))
+        cur.close()
+        # commit the changes
+        conn.commit()
+        conn.close()
     except Exception as error:
         return error
-    
+
+@app.route('/db', methods=['GET'])
+def dbSelect():
+    try:
+        conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+        cur = conn.cursor()
+        cur.execute("SELECT * FROM test;")
+        ret = cur.fetchone()
+        cur.close()
+        conn.close()
+        return ret
+    except Exception as error:
+        return error
+
 
 
 if __name__ == '__main__':
