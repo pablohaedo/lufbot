@@ -99,7 +99,7 @@ def db():
     try:
         conn = psycopg2.connect(DATABASE_URL, sslmode='require')
         cur = conn.cursor()
-        cur.execute("""create database bot;""")
+        # cur.execute("""create database bot;""")
         cur.execute("CREATE TABLE test (id serial PRIMARY KEY, num integer, data varchar);")
         cur.execute("INSERT INTO test (num, data) VALUES (%s, %s)", (100, "abc'def"))
         cur.close()
