@@ -94,8 +94,8 @@ def set_webhook():
 def index():
     return '.'
 
-@app.route('/db')
-def index():
+@app.route('/db', methods=['GET'])
+def db():
     try:
         conn = psycopg2.connect(DATABASE_URL, sslmode='require')
         cur = conn.cursor()
