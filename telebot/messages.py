@@ -14,8 +14,8 @@ messageList = {
         "keyboard" : ['Programas SIN ALTA (precio público)','Programas CON ALTA']
     },
     "PASOS DE UNA VENTA" : {
-        "messages" : ['PASOS DE UNA VENTA','PREGUNTAS','METODO DESAYUNO','PRODUCTOS','OBJECIONES'],
-        "keyboard" : ['PASOS DE UNA VENTA','PREGUNTAS','METODO DESAYUNO','PRODUCTOS','OBJECIONES']
+        "messages" : ['PREGUNTAS','METODO DESAYUNO','PRODUCTOS','OBJECIONES'],
+        "keyboard" : ['PREGUNTAS','METODO DESAYUNO','PRODUCTOS','OBJECIONES']
     },
     "PREGUNTAS" : {
         "messasges" : ['''Contame un poco más de vos y así sé que puedo recomendarte:\n 
