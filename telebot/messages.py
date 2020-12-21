@@ -18,7 +18,7 @@ messageList = {
         "keyboard" : ['PREGUNTAS','METODO DESAYUNO','PRODUCTOS','OBJECIONES']
     },
     "PREGUNTAS" : {
-        "messasges" : ['''Contame un poco más de vos y así sé que puedo recomendarte:\n 
+        "messages" : ['''Contame un poco más de vos y así sé que puedo recomendarte:\n 
                         ¿Que objetivo físico te gustaría lograr?\n
                         ¿Cuanto mides y pesas actualmente?\n
                         ¿Cuanta agua tomas al día?\n
