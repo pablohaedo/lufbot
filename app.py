@@ -50,13 +50,13 @@ def respond():
     if text in messageList:
         bot.sendChatAction(chat_id=chat_id, action="typing")
         nodo = messageList[text]
-        reply_markup = []
+        reply_markup = {}
         if 'keyboard' in nodo:
             reply_markup = telegram.ReplyKeyboardMarkup([nodo['keyboard']],
                 one_time_keyboard=True,
                 resize_keyboard=True)
         for message in nodo['messages']:
-            sleep(0.5)
+            sleep(0.2)
             bot.send_message(chat_id=chat_id, text=message, reply_markup=reply_markup)
         return 'ok'
 
