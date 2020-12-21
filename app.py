@@ -3,8 +3,10 @@ from flask import Flask, request
 import telegram
 import re
 from time import sleep
-from telebot.config import BOT_TOKEN, BOT_USERNAME, CALLBACK_URL
 from telebot.messages import messageList
+from telebot.config import BOT_TOKEN, BOT_USERNAME, CALLBACK_URL, DATABASE_URL
+import psycopg2
+
 
 global bot
 global TOKEN
@@ -108,6 +110,42 @@ def set_webhook():
 @app.route('/')
 def index():
     return '.'
+
+@app.route('/dbStart', methods=['GET'])
+def db():
+    try:
+        conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+        cur = conn.cursor()
+        # cur.execute("""create database bot;""")
+        cur.execute("CREATE TABLE test (id serial PRIMARY KEY, num integer, data varchar);")
+        cur.execute("INSERT INTO test (num, data) VALUES (%s, %s)", (100, "abc'def"))
+        cur.close()
+        # commit the changes
+        conn.commit()
+        conn.close()
+        return 'ok'
+    except Exception as error:
+        print('LLEGA ACAAAA')
+        print(error)
+        return '.'
+
+@app.route('/db', methods=['GET'])
+def dbSelect():
+    try:
+        conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+        cur = conn.cursor()
+        cur.execute("SELECT * FROM test;")
+        ret = cur.fetchone()
+        print(ret)
+        cur.close()
+        conn.close()
+        return ret
+    except Exception as error:
+        print('LLEGA')
+        print(error)
+        return '.'
+
+
 
 if __name__ == '__main__':
     # note the threaded arg which allow
