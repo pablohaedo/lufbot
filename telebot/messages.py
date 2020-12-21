@@ -2,7 +2,7 @@
 
 messageList = {
     "/start" : {
-        "messages" : [''],
+        "messages" : ['Estas son las acciones básicas.'],
         "keyboard" : ["LISTA DE PRECIOS",'PLANES','PASOS DE UNA VENTA']
     },
     "LISTA DE PRECIOS" : {
