@@ -57,7 +57,7 @@ def respond():
                 resize_keyboard=True)
         for message in nodo['messages']:
             sleep(0.5)
-            bot.send_message(chat_id=chat_id, reply_to_message_id=msg_id, text=message, reply_markup=reply_markup)
+            bot.send_message(chat_id=chat_id, text=message, reply_markup=reply_markup)
         return 'ok'
 
 

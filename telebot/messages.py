@@ -1,6 +1,10 @@
 
 
 messageList = {
+    "/start" : {
+        "messages" : ['Buenas!'],
+        "keyboard" : ["LISTA DE PRECIOS",'PLANES','PASOS DE UNA VENTA']
+    },
     "LISTA DE PRECIOS" : {
         "messages" : ['PUBLICO','CLIENTES PREFERENTES 25%','ASOCIADO X DESCUENTOS'], 
         "keyboard" : ['PUBLICO','CLIENTES PREFERENTES 25%','ASOCIADO X DESCUENTOS']
