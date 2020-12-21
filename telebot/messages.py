@@ -2,7 +2,7 @@
 
 messageList = {
     "/start" : {
-        "messages" : ['Buenas!'],
+        "messages" : [''],
         "keyboard" : ["LISTA DE PRECIOS",'PLANES','PASOS DE UNA VENTA']
     },
     "LISTA DE PRECIOS" : {
@@ -36,9 +36,9 @@ messageList = {
                     ''']
     },
     "PRODUCTO" : {
-        "messages" : ['IMAGEN1',
+        "messages" : ['IMG:IMAGEN1.jpg',
             '''Te cuento que Herbalife salio premiado por la afamada revista Health and Fitness como el mejor desayuno del 2019!!''',
-            'IMAGEN2', 
+            'IMG:IMAGEN2.png', 
             '''Estos son los 3 productos basicos!\n
             Batido Nutricional:\n
             Es una comida completa, que te aporta todos los nutrientes que necestias, y tiene las mismas calorias que una manzana🍎!, al igual que todos los productos Herbalife, son naturales, y por eso es que no tienen contraindicaciones y todo el mundo los puede tomar, incluso embarazadas, lactantes y niños!!\n
@@ -47,7 +47,7 @@ messageList = {
             Es una bebida a base de Te verde concentrado, y Te negro!!, Si sentis cansancio o desgano durante el dia, este es tu nuevo mejor amigo🤝!, Ademas, tiene una propiedad que acelera el metabolismo, o sea que vas a ir "quemando grasita extra" mientras haces tus actividades del dia. Le decimos el GYM de bolsillo🏃🏼‍♀️!\n\n
             Aloe Vera:\n
             Amo este producto!, Ayuda a desintoxicar el aparato digestivo!! Te da una sensacion de alivio inmediato, y al pasar los dias, vas a sentir como te regularizas intestinalmente♻️! Al limpiar el aparato digestivo, permitis que absorba mayor cantidad de nutrientes, de las comidas, y obvio del Batido!!, Los cambios son muy notorios en poco tiempo✅!''',
-            'IMAGEN3',
+            'IMG:IMAGEN3.jpg',
             '''Proteina:\n
             Este producto te va a dar super saciedad, pero lo mas importante es que contribuye con practicamente todas las funciones vitales y los sistemas del cuerpo🙋🏼‍♀️!, Ayuda a construir masa muscular de manera natural. Te cuento que el musculo "se alimenta de la grasa" para ganar energia, y por eso es que cuanto mas musculo creas, mas grasa eliminas😉!!, para descenso de peso, si podes añadir este producto en tu plan, vas a ver cambios enseguida!!'''
             ]
