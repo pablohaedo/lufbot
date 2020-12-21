@@ -35,7 +35,7 @@ messageList = {
                     El seguimiento es continuo con revisión semanal y por supuesto podrás preguntarme las veces que necesites.
                     ''']
     },
-    "PRODUCTO" : {
+    "PRODUCTOS" : {
         "messages" : ['IMG:IMAGEN1.jpg',
             '''Te cuento que Herbalife salio premiado por la afamada revista Health and Fitness como el mejor desayuno del 2019!!''',
             'IMG:IMAGEN2.png', 
