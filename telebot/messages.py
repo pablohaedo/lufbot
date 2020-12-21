@@ -9,7 +9,7 @@ messageList = {
         "messages" : ['Programas SIN ALTA (precio público)','Programas CON ALTA'],
         "keyboard" : ['Programas SIN ALTA (precio público)','Programas CON ALTA']
     },
-    "PASOS DE UNA VENTA" {
+    "PASOS DE UNA VENTA" : {
         "messages" : ['PASOS DE UNA VENTA','PREGUNTAS','METODO DESAYUNO','PRODUCTOS','OBJECIONES'],
         "keyboard" : ['PASOS DE UNA VENTA','PREGUNTAS','METODO DESAYUNO','PRODUCTOS','OBJECIONES']
     },
