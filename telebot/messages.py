@@ -26,13 +26,13 @@ messageList = {
         ASOCIADO X DESCUENTOS"""], 
         "keyboard" : ['ARG PUBLICO','ARG PREFERENTES 25','ARG ASOCIADOS']
     },
-    "ARG PUBLICO" ; {
+    "ARG PUBLICO" : {
         "messages" : ['IMG:1.jpg','IMG:2.jpg','IMG:3.jpg','IMG:4.png']
     },
-    "ARG PREFERENTES 25" ; {
+    "ARG PREFERENTES 25" : {
         "messages" : ['IMG:1.jpg','IMG:2.png','IMG:3.png']
     },
-    "ARG ASOCIADOS" ; {
+    "ARG ASOCIADOS" : {
         "messages" : ['IMG:IMAGEN1.jpg','IMG:IMAGEN1.jpg']
     },
     "LISTA CHILE": {
@@ -41,13 +41,13 @@ messageList = {
         ASOCIADO X DESCUENTOS"""], 
         "keyboard" : ['CHI PUBLICO','CHI 25','CHI ASOCIADOS']
     },
-    "CHI PUBLICO" ; {
+    "CHI PUBLICO" : {
         "messages" : ['IMG:1.jpg','IMG:2.jpg','IMG:3.jpg']
     },
-    "CHI PREFERENTES 25" ; {
+    "CHI PREFERENTES 25" : {
         "messages" : ['IMG:1.jpg','IMG:2.jpg','IMG:3.jpg']
     },
-    "CHI ASOCIADOS" ; {
+    "CHI ASOCIADOS": {
         "messages" : ['IMG:1.jpg','IMG:2.jpg']
     },
     "LISTA URUGUAY": {
@@ -55,10 +55,10 @@ messageList = {
         ASOCIADO X DESCUENTOS"""], 
         "keyboard" : ['URU PUBLICO','URU ASOCIADOS']
     },
-    "URU PUBLICO" ; {
+    "URU PUBLICO" : {
         "messages" : ['IMG:1.jpg']
     },
-    "URU ASOCIADOS" ; {
+    "URU ASOCIADOS" : {
         "messages" : ['IMG:1.jpg']
     },
     "PLANES" : {
