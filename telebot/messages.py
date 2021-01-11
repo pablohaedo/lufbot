@@ -4,8 +4,8 @@ messageList = {
     "/start" : {
         "messages" : ['Estas son las acciones básicas.'],
         "keyboard" : [
-            [telegram.InlineKeyboardButton(text="LISTA DE PRECIOS", callback_data='WOWOWOWOW'),
-            telegram.InlineKeyboardButton(text='PLANES',callback_data='gffgfdgfgd' )]
+            [telegram.KeyboardButton(text="LISTA DE PRECIOS", callback_data='WOWOWOWOW'),
+            telegram.KeyboardButton(text='PLANES',callback_data='gffgfdgfgd' )]
             #,
             # ['PASOS DE UNA VENTA', 'SEGUIMIENTO'],
             # ['MARATON 10 DIAS',
