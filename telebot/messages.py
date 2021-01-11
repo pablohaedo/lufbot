@@ -3,7 +3,7 @@
 messageList = {
     "/start" : {
         "messages" : ['Estas son las acciones básicas.'],
-        "keyboard" : 
+        "keyboard" : [
             ["LISTA DE PRECIOS", 'PLANES'],
             ['PASOS DE UNA VENTA', 'SEGUIMIENTO'],
             ['MARATON 10 DIAS',
@@ -11,16 +11,17 @@ messageList = {
             'CAPACITACION'],
             ['COMO REGISTRARSE',
             'COMO COMPRAR']
+            ]
     },
     "LISTA DE PRECIOS" : {
         "messages" : ['ARGENTINA','URUGUAY','CHILE'], 
-        "keyboard" : ['LISTA ARGENTINA','LISTA URUGUAY','LISTA CHILE']
+        "keyboard" : [['LISTA ARGENTINA','LISTA URUGUAY','LISTA CHILE']]
     },
     "LISTA ARGENTINA": {
         "messages" : ["""PUBLICO
 CLIENTES PREFERENTES 25%
 ASOCIADO X DESCUENTOS"""], 
-        "keyboard" : ['ARG PUBLICO','ARG PREFERENTES 25','ARG ASOCIADOS']
+        "keyboard" : [['ARG PUBLICO','ARG PREFERENTES 25','ARG ASOCIADOS']]
     },
     "ARG PUBLICO" : {
         "messages" : ['IMG:listado/arg/publico/1.jpg','IMG:listado/arg/publico/2.jpg','IMG:listado/arg/publico/3.jpg','IMG:listado/arg/publico/4.png']
@@ -35,7 +36,7 @@ ASOCIADO X DESCUENTOS"""],
         "messages" : ["""PUBLICO
 CLIENTES PREFERENTES 25%
 ASOCIADO X DESCUENTOS"""], 
-        "keyboard" : ['CHI PUBLICO','CHI 25','CHI ASOCIADOS']
+        "keyboard" : [['CHI PUBLICO','CHI 25','CHI ASOCIADOS']]
     },
     "CHI PUBLICO" : {
         "messages" : ['IMG:1.jpg','IMG:2.jpg','IMG:3.jpg']
@@ -49,7 +50,7 @@ ASOCIADO X DESCUENTOS"""],
     "LISTA URUGUAY": {
         "messages" : ["""PUBLICO
 ASOCIADO X DESCUENTOS"""], 
-        "keyboard" : ['URU PUBLICO','URU ASOCIADOS']
+        "keyboard" : [['URU PUBLICO','URU ASOCIADOS']]
     },
     "URU PUBLICO" : {
         "messages" : ['IMG:1.jpg']
@@ -59,11 +60,11 @@ ASOCIADO X DESCUENTOS"""],
     },
     "PLANES" : {
         "messages" : ['ARGENTINA','URUGUAY','CHILE'], 
-        "keyboard" : ['PLANES ARGENTINA', 'PLANES URUGUAY', 'PLANES CHILE']
+        "keyboard" : [['PLANES ARGENTINA', 'PLANES URUGUAY', 'PLANES CHILE']]
     },
     "PASOS DE UNA VENTA" : {
         "messages" : ['PREGUNTAS','METODO DESAYUNO','PRODUCTOS','OBJECIONES'],
-        "keyboard" : ['PREGUNTAS','METODO DESAYUNO','PRODUCTOS','OBJECIONES']
+        "keyboard" : [['PREGUNTAS','METODO DESAYUNO','PRODUCTOS','OBJECIONES']]
     },
     "PREGUNTAS" : {
         "messages" : ['''Contame un poco más de vos y así sé que puedo recomendarte:\n 
