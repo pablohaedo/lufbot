@@ -54,9 +54,10 @@ def respond():
     nodo = messageList[text]
     reply_markup = {}
     if 'keyboard' in nodo:
-        reply_markup = telegram.InlineKeyboardMarkup(nodo['keyboard'],
-            one_time_keyboard=True,
-            resize_keyboard=True)
+        reply_markup = telegram.InlineKeyboardMarkup(nodo['keyboard'])
+        # ,
+        #     one_time_keyboard=True,
+        #     resize_keyboard=True)
     for message in nodo['messages']:
         sleep(0.2)
         if message.startswith('IMG:'):
