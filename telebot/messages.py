@@ -3,15 +3,67 @@
 messageList = {
     "/start" : {
         "messages" : ['Estas son las acciones básicas.'],
-        "keyboard" : ["LISTA DE PRECIOS",'PLANES','PASOS DE UNA VENTA']
+        "keyboard" : [
+            "LISTA DE PRECIOS",
+            'PLANES',
+            'PASOS DE UNA VENTA',
+            'SEGUIMIENTO',
+            'MARATON 10 DIAS',
+            'HLOK',
+            'CAPACITACION',
+            #'',
+            'COMO REGISTRARSE',
+            'COMO COMPRAR'
+            ]
     },
     "LISTA DE PRECIOS" : {
-        "messages" : ['PUBLICO','CLIENTES PREFERENTES 25%','ASOCIADO X DESCUENTOS'], 
-        "keyboard" : ['PUBLICO','CLIENTES PREFERENTES 25%','ASOCIADO X DESCUENTOS']
+        "messages" : ['ARGENTINA','URUGUAY','CHILE'], 
+        "keyboard" : ['LISTA ARGENTINA','LISTA URUGUAY','LISTA CHILE']
+    },
+    "LISTA ARGENTINA": {
+        "messages" : ["""PUBLICO
+        CLIENTES PREFERENTES 25%
+        ASOCIADO X DESCUENTOS"""], 
+        "keyboard" : ['ARG PUBLICO','ARG PREFERENTES 25','ARG ASOCIADOS']
+    },
+    "ARG PUBLICO" ; {
+        "messages" : ['IMG:1.jpg','IMG:2.jpg','IMG:3.jpg','IMG:4.png']
+    },
+    "ARG PREFERENTES 25" ; {
+        "messages" : ['IMG:1.jpg','IMG:2.png','IMG:3.png']
+    },
+    "ARG ASOCIADOS" ; {
+        "messages" : ['IMG:IMAGEN1.jpg','IMG:IMAGEN1.jpg']
+    },
+    "LISTA CHILE": {
+        "messages" : ["""PUBLICO
+        CLIENTES PREFERENTES 25%
+        ASOCIADO X DESCUENTOS"""], 
+        "keyboard" : ['CHI PUBLICO','CHI 25','CHI ASOCIADOS']
+    },
+    "CHI PUBLICO" ; {
+        "messages" : ['IMG:1.jpg','IMG:2.jpg','IMG:3.jpg']
+    },
+    "CHI PREFERENTES 25" ; {
+        "messages" : ['IMG:1.jpg','IMG:2.jpg','IMG:3.jpg']
+    },
+    "CHI ASOCIADOS" ; {
+        "messages" : ['IMG:1.jpg','IMG:2.jpg']
+    },
+    "LISTA URUGUAY": {
+        "messages" : ["""PUBLICO
+        ASOCIADO X DESCUENTOS"""], 
+        "keyboard" : ['URU PUBLICO','URU ASOCIADOS']
+    },
+    "URU PUBLICO" ; {
+        "messages" : ['IMG:1.jpg']
+    },
+    "URU ASOCIADOS" ; {
+        "messages" : ['IMG:1.jpg']
     },
     "PLANES" : {
-        "messages" : ['Programas SIN ALTA (precio público)','Programas CON ALTA'],
-        "keyboard" : ['Programas SIN ALTA (precio público)','Programas CON ALTA']
+        "messages" : ['ARGENTINA','URUGUAY','CHILE'], 
+        "keyboard" : ['PLANES ARGENTINA', 'PLANES URUGUAY', 'PLANES CHILE']
     },
     "PASOS DE UNA VENTA" : {
         "messages" : ['PREGUNTAS','METODO DESAYUNO','PRODUCTOS','OBJECIONES'],
