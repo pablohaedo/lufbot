@@ -6,14 +6,14 @@ messageList = {
         "keyboard" : [
             ["LISTA DE PRECIOS",
             'PLANES',
-            'PASOS DE UNA VENTA'],
-            ['SEGUIMIENTO',
+            'PASOS DE UNA VENTA',
+            'SEGUIMIENTO',
             'MARATON 10 DIAS',
             'HLOK',
-            'CAPACITACION'],
+            'CAPACITACION',
             #'',
-            ['COMO REGISTRARSE',
-            'COMO COMPRAR']
+            'COMO REGISTRARSE',
+            'COMO COMPRAR'
             ]
     },
     "LISTA DE PRECIOS" : {
