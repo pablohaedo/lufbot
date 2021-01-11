@@ -26,9 +26,11 @@ def respond():
     update = telegram.Update.de_json(request.get_json(force=True), bot)
 
     print(update)
-    chat_id = update.message.chat.id
-    msg_id = update.message.message_id
-
+    try:
+        chat_id = update.message.chat.id
+        msg_id = update.message.message_id
+    except: 
+        return 'ok'
     #bot.sendMessage(chat_id=chat_id, text='bot_welcome', reply_to_message_id=msg_id)
 
     #return 'ok'
