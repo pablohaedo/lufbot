@@ -4,16 +4,16 @@ messageList = {
     "/start" : {
         "messages" : ['Estas son las acciones básicas.'],
         "keyboard" : [
-            "LISTA DE PRECIOS",
+            ["LISTA DE PRECIOS",
             'PLANES',
-            'PASOS DE UNA VENTA',
-            'SEGUIMIENTO',
+            'PASOS DE UNA VENTA'],
+            ['SEGUIMIENTO',
             'MARATON 10 DIAS',
             'HLOK',
-            'CAPACITACION',
+            'CAPACITACION'],
             #'',
-            'COMO REGISTRARSE',
-            'COMO COMPRAR'
+            ['COMO REGISTRARSE',
+            'COMO COMPRAR']
             ]
     },
     "LISTA DE PRECIOS" : {
@@ -22,23 +22,23 @@ messageList = {
     },
     "LISTA ARGENTINA": {
         "messages" : ["""PUBLICO
-        CLIENTES PREFERENTES 25%
-        ASOCIADO X DESCUENTOS"""], 
+CLIENTES PREFERENTES 25%
+ASOCIADO X DESCUENTOS"""], 
         "keyboard" : ['ARG PUBLICO','ARG PREFERENTES 25','ARG ASOCIADOS']
     },
     "ARG PUBLICO" : {
-        "messages" : ['IMG:1.jpg','IMG:2.jpg','IMG:3.jpg','IMG:4.png']
+        "messages" : ['IMG:listado/arg/publico/1.jpg','IMG:listado/arg/publico/2.jpg','IMG:listado/arg/publico/3.jpg','IMG:listado/arg/publico/4.png']
     },
     "ARG PREFERENTES 25" : {
-        "messages" : ['IMG:1.jpg','IMG:2.png','IMG:3.png']
+        "messages" : ['IMG:listado/arg/preferentes/1.jpg','IMG:listado/arg/preferentes/2.png','IMG:listado/arg/preferentes/3.png']
     },
     "ARG ASOCIADOS" : {
-        "messages" : ['IMG:IMAGEN1.jpg','IMG:IMAGEN1.jpg']
+        "messages" : ['IMG:listado/arg/asociados/nocategorizado.jpg','IMG:listado/arg/asociados/monotributista.jpg']
     },
     "LISTA CHILE": {
         "messages" : ["""PUBLICO
-        CLIENTES PREFERENTES 25%
-        ASOCIADO X DESCUENTOS"""], 
+CLIENTES PREFERENTES 25%
+ASOCIADO X DESCUENTOS"""], 
         "keyboard" : ['CHI PUBLICO','CHI 25','CHI ASOCIADOS']
     },
     "CHI PUBLICO" : {
@@ -52,7 +52,7 @@ messageList = {
     },
     "LISTA URUGUAY": {
         "messages" : ["""PUBLICO
-        ASOCIADO X DESCUENTOS"""], 
+ASOCIADO X DESCUENTOS"""], 
         "keyboard" : ['URU PUBLICO','URU ASOCIADOS']
     },
     "URU PUBLICO" : {
