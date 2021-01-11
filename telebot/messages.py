@@ -3,7 +3,7 @@
 messageList = {
     "/start" : {
         "messages" : ['Estas son las acciones básicas.'],
-        "keyboard" : [
+        "keyboard" : 
             ["LISTA DE PRECIOS", 'PLANES'],
             ['PASOS DE UNA VENTA', 'SEGUIMIENTO'],
             ['MARATON 10 DIAS',
@@ -11,7 +11,6 @@ messageList = {
             'CAPACITACION'],
             ['COMO REGISTRARSE',
             'COMO COMPRAR']
-            ]
     },
     "LISTA DE PRECIOS" : {
         "messages" : ['ARGENTINA','URUGUAY','CHILE'], 
