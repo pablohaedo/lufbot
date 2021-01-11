@@ -1,19 +1,19 @@
-
+import telegram
 
 messageList = {
     "/start" : {
         "messages" : ['Estas son las acciones básicas.'],
-        "keyboard" : [
-            "LISTA DE PRECIOS",
-            'PLANES',
-            'PASOS DE UNA VENTA',
-            'SEGUIMIENTO',
-            'MARATON 10 DIAS',
-            'HLOK',
-            'CAPACITACION',
-            #'',
-            'COMO REGISTRARSE',
-            'COMO COMPRAR'
+        "keyboard" : [[
+            telegram.KeyboardButton( text="LISTA DE PRECIOS"),
+            telegram.KeyboardButton( 'PLANES')],
+            [telegram.KeyboardButton( 'PASOS DE UNA VENTA'),
+            telegram.KeyboardButton( 'SEGUIMIENTO']
+            # 'MARATON 10 DIAS',
+            # 'HLOK',
+            # 'CAPACITACION',
+            # #'',
+            # 'COMO REGISTRARSE',
+            # 'COMO COMPRAR'
             ]
     },
     "LISTA DE PRECIOS" : {
