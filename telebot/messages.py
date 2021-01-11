@@ -5,7 +5,7 @@ messageList = {
         "messages" : ['Estas son las acciones básicas.'],
         "keyboard" : [[
             
-            telegram.KeyboardButton( text="LISTA DE PRECIOS"),
+            telegram.KeyboardButton( "LISTA DE PRECIOS"),
             telegram.KeyboardButton( 'PLANES')],
             [telegram.KeyboardButton( 'PASOS DE UNA VENTA'),
             telegram.KeyboardButton( 'SEGUIMIENTO')]
