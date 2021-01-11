@@ -54,7 +54,7 @@ def respond():
     nodo = messageList[text]
     reply_markup = {}
     if 'keyboard' in nodo:
-        reply_markup = telegram.ReplyKeyboardMarkup([nodo['keyboard']],
+        reply_markup = telegram.ReplyKeyboardMarkup(nodo['keyboard'],
             one_time_keyboard=True,
             resize_keyboard=True)
     for message in nodo['messages']:
