@@ -4,16 +4,16 @@ messageList = {
     "/start" : {
         "messages" : ['Estas son las acciones básicas.'],
         "keyboard" : [
-            [telegram.KeyboardButton(text="LISTA DE PRECIOS", callback_data='WOWOWOWOW'),
-            telegram.KeyboardButton(text='PLANES',callback_data='gffgfdgfgd' )]
-            ,
-            ['PASOS DE UNA VENTA', 'SEGUIMIENTO'],
-            ['MARATON 10 DIAS',
-            'HLOK'],
+            ['PASOS DE UNA VENTA',
+            'PLANES'],
+            ['COMO COMPRAR',
+            'COMO REGISTRARSE'],
+            ['SEGUIMIENTO',
+            "LISTA DE PRECIOS"],
             ['DESAFIO 5D',
-            'CAPACITACION'],
-            ['COMO REGISTRARSE',
-            'COMO COMPRAR']
+            'MARATON 10 DIAS'],
+            ['HLOK',
+            'CAPACITACION']
             ]
     },
     "LISTA DE PRECIOS" : {
