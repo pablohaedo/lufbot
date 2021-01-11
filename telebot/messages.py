@@ -9,7 +9,8 @@ messageList = {
             ,
             ['PASOS DE UNA VENTA', 'SEGUIMIENTO'],
             ['MARATON 10 DIAS',
-            'HLOK',
+            'HLOK'],
+            ['DESAFIO 5D',
             'CAPACITACION'],
             ['COMO REGISTRARSE',
             'COMO COMPRAR']
