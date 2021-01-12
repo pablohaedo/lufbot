@@ -339,9 +339,32 @@ Vamos a llenar la ficha para ver tus avances y sobre todo la FOTO !!!📝📸 Se
 Contame tu experiencia ! Como te has sentido en este proceso.
 
 Quiero que sigamos en contacto para seguir evaluando y corrigiendo si es necesario. Recuerda que tu participación en el grupo de comunidad y tu experiencia es super importante para ayudar a los que recién están comenzando."""]
+    },
+    'MENSUAL': {
+        'messages': ['Se personaliza en base  al cliente ! Lo importante es al menos al menos 1 vez al mes hacer seguimiento.']
+    },
+    'PROGRAMAR MENSAJES': {
+        'messages': ['https://youtu.be/gqHmIQj18Tk']
+    },
+    'IDEAS POST': {
+        'messages': ['Reto de Transformacion Personal',"""Región SAM/CAM
+https://www.estoesherbalife.com/sc/reto-transformacion"""]
+    },
+    'RECETAS': {
+        'messages': ['MI NUTRICION FAVORITA - LIBRO DE RECETAS HERBALIFE',
+            'Mi-Nutricion-Favorita_Tomo-II',
+            """Recetas de batidos 👇
+https://t.me/joinchat/AAAAAEetGY990CnScYq_uA""",
+            """Aprende a comer 👇
+https://t.me/joinchat/AAAAAEaZ4iGdpyh7JTsXUw""",
+            """DRIVE RECETAS
+https://drive.google.com/drive/folders/1XFosFLxuxG91HjKyQG7VyCNgWdvZaqWP?usp=sharing""",
+            """Canal de Recetas TALLER DE COCINA
+https://t.me/joinchat/AAAAAFj9DgDbdMo3AlWPjQ"""]
+    },
+    'RESULTADO': {
+        'messages': ["""Resultados 👇
+
+https://t.me/joinchat/AAAAAEYwJl1RXZfgnkEw9A"""]
     }
 }
-
-
-"""         ['MENSUAL','PROGRAMAR MENSAJES'],
-            ['IDEAS POST','RECETAS','RESULTADO']"""
