@@ -65,6 +65,10 @@ def respond():
             path = './telebot/imgs/{}'.format(message[4:])
             print('LA IMAGEN ESTA EN {}'.format(path))
             bot.send_photo(chat_id, photo=open(path, 'rb'))
+        elif message.startswith('VID:'):
+            path = './telebot/videos/{}'.format(message[4:])
+            print('EL VIDEO ESTA EN {}'.format(path))
+            bot.send_video(chat_id, video=open(path, 'rb'), supports_streaming=True)
         else:
             bot.send_message(chat_id=chat_id, text=message, reply_markup=reply_markup)
     return 'ok'

@@ -42,13 +42,13 @@ ASOCIADO X DESCUENTOS"""],
         "keyboard" : [['CHI PUBLICO'],['CHI 25'],['CHI ASOCIADOS']]
     },
     "CHI PUBLICO" : {
-        "messages" : ['IMG:1.jpg','IMG:2.jpg','IMG:3.jpg']
+        "messages" : ['IMG:listado/chi/publico/1.jpg','IMG:listado/chi/publico/2.jpg','IMG:listado/chi/publico/3.jpg']
     },
     "CHI PREFERENTES 25" : {
-        "messages" : ['IMG:1.jpg','IMG:2.jpg','IMG:3.jpg']
+        "messages" : ['IMG:listado/chi/preferentes/1.jpg','IMG:listado/chi/preferentes/2.jpg','IMG:listado/chi/preferentes/3.jpg']
     },
     "CHI ASOCIADOS": {
-        "messages" : ['IMG:1.jpg','IMG:2.jpg']
+        "messages" : ['IMG:listado/chi/asociados/1.jpg','IMG:listado/chi/asociados/2.jpg']
     },
     "LISTA URUGUAY": {
         "messages" : ["""PUBLICO
@@ -56,15 +56,46 @@ ASOCIADO X DESCUENTOS"""],
         "keyboard" : [['URU PUBLICO'],['URU ASOCIADOS']]
     },
     "URU PUBLICO" : {
-        "messages" : ['IMG:1.jpg']
+        "messages" : ['IMG:listado/uru/publico/1.jpg']
     },
     "URU ASOCIADOS" : {
-        "messages" : ['IMG:1.jpg']
+        "messages" : ['IMG:listado/uru/asociados/1.jpg']
     },
     "PLANES" : {
         "messages" : ['ARGENTINA','URUGUAY','CHILE'], 
         "keyboard" : [['PLANES ARGENTINA'],['PLANES URUGUAY'], ['PLANES CHILE']]
     },
+    'PLANES ARGENTINA': {
+        "messages" : ['Programas SIN ALTA (precio público)', 'Programas CON ALTA'],
+        "keyboard": [['ARG SIN ALTA'],['ARG CON ALTA']]
+    },
+    'ARG SIN ALTA': {
+        "messages": ['IMG:planes/arg/sin/1.jpg','IMG:planes/arg/sin/2.jpg','IMG:planes/arg/sin/3.jpg']
+    },
+    'ARG CON ALTA': {
+        "messages": ['IMG:planes/arg/con/1.jpg','IMG:planes/arg/con/2.jpg','IMG:planes/arg/con/3.jpg']
+    },
+    'PLANES CHILE': {
+        "messages" : ['Programas SIN ALTA (precio público)', 'Programas CON ALTA'],
+        "keyboard": [['CHI SIN ALTA'],['CHI CON ALTA']]
+    },
+    'CHI SIN ALTA': {
+        "messages": ['IMG:planes/chi/sin/1.jpg','IMG:planes/chi/sin/2.jpg','IMG:planes/chi/sin/3.jpg']
+    },
+    'CHI CON ALTA': {
+        "messages": ['IMG:planes/chi/con/1.jpg','IMG:planes/chi/con/2.jpg','IMG:planes/chi/con/3.jpg']
+    },
+    'PLANES URUGUAY': {
+        "messages" : ['Programas SIN ALTA (precio público)', 'Programas CON ALTA'],
+        "keyboard": [['URU SIN ALTA'],['URU CON ALTA']]
+    },
+    'URU SIN ALTA': {
+        "messages": ['IMG:planes/uru/sin/1.jpg','IMG:planes/uru/sin/2.jpg','IMG:planes/uru/sin/3.jpg']
+    },
+    'URU CON ALTA': {
+        "messages": ['IMG:planes/uru/con/1.jpg','IMG:planes/uru/con/2.jpg','IMG:planes/uru/con/3.jpg']
+    },
+
     "PASOS DE UNA VENTA" : {
         "messages" : ['PREGUNTAS','METODO DESAYUNO','PRODUCTOS','OBJECIONES'],
         "keyboard" : [['PREGUNTAS'],['METODO DESAYUNO'],['PRODUCTOS'],['OBJECIONES']]
@@ -114,6 +145,24 @@ ASOCIADO X DESCUENTOS"""],
     '''Genial, yo pregunte lo mismo! , son super seguros y naturales, ademas te podes tomar toda la cantidad de producto que quieras y nada malo te va a pasar!, cumplen con la ley de "megadosis" que dice justamente eso!, si podes comer un pollito con ensalada, entonces tambien podes tomar cualquier producto, porque son comida.\n
     Pensa que esta en 95 paises Herbalife, o sea que esos 95 ministerios de salud los avalan para su venta libre, por personas comunes que no hace falta que sean medicos o nutricionistas, son geniales.'''
         ]
+    },
+
+    'COMO COMPRAR': {
+        "messages" : ['ARGENTINA','URUGUAY','CHILE'], 
+        "keyboard" : [['COMPRAR ARGENTINA'],['COMPRAR URUGUAY'],['COMPRAR CHILE']]
+    },
+    'COMPRAR ARGENTINA': {
+        "messages": ["""*HERBALIFE TIENDA. Descárgala en tu celular.*
+Versión para iOS: 
+https://apps.apple.com/ar/app/herbalife-nutrition-tienda/id1154285940
+
+Version para Android:
+https://play.google.com/store/apps/details?id=com.hrbl.mobile.android.ordering | Te envió las indicaciones de como comprar. Lo podes hacer por la aplicación o entrando a la página web.
+
+https://drive.google.com/file/d/1DRTvYbTPo9jHLv6C9zuOa-ncF0ldESXy/view?usp=drivesdk """]
+    },
+    'COMPRAR URUGUAY': {
+        'messages': ['VID:compraruruguay.mp4']
     }
 }
 
