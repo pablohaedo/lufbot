@@ -208,7 +208,13 @@ https://youtu.be/Xcu9dOSmCmg"""]
     },
     'SEGUIMIENTO': {
         'messages': ['PRE PRODUCTO - DÍA  que pago','DIA 0 (recibe los productos)','DIA 1','DIA 2','DIA 3','DIA 7','DIA 14','DIA 21','MENSUAL','Programar Mensajes en Telegram','IDEAS PARA POST','RECETAS','RESULTADO'],
-        'keyboard': [['PRE PRODUCTO', 'DIA 0'],['DIA 1','DIA 2','DIA 3'],['DIA 7','DIA 14','DIA 21'],['MENSUAL','PROGRAMAR MENSAJES']['IDEAS POST','RECETAS','RESULTADO']]
+        'keyboard': [
+            ['PRE PRODUCTO', 'DIA 0'],
+            ['DIA 1','DIA 2','DIA 3'],
+            ['DIA 7','DIA 14','DIA 21'],
+            ['MENSUAL','PROGRAMAR MENSAJES'],
+            ['IDEAS POST','RECETAS','RESULTADO']
+            ]
     },
     'PRE PRODUCTO': {
         'messages':['FIL:comienzo.pptx',
