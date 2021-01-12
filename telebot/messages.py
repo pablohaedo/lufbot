@@ -162,6 +162,49 @@ https://play.google.com/store/apps/details?id=com.hrbl.mobile.android.ordering""
     },
     'COMPRAR URUGUAY': {
         'messages': ['VID:compraruruguay.mp4']
+    },
+    'COMPRAR CHILE': {
+        'messages': ['https://youtu.be/f12y37NfvRg']
+    },
+
+    'COMO REGISTRARSE': {
+        "messages" : ['ARGENTINA','URUGUAY','CHILE'], 
+        "keyboard" : [['REGISTRO ARGENTINA'],['REGISTRO URUGUAY'],['REGISTRO CHILE']]
+    },
+    'REGISTRO ARGENTINA': {
+        "messages": ["""https://www.myherbalife.com/?ReturnUrl=%2fHome%2fDefault
+
+1. Ingresar al link 
+2. Seleccionar tu pais
+3. Hace click en: Registrate como distribuidor independiente (aplica en linea)
+4. Generar tu usuario con tu mail y una clave
+5. Aceptar las reglas del standard de oro (marca en cada casillero)
+6. Poner  los datos de tu patrocinador, ( ID Y  PRIMERAS 3 LETRAS DEL APELLIDO ❤️) 
+7. Por último comprar el Pack de bienvenida SI ES QUE AUN NO LO TENES  (Opción Kit Caja RECOMENDADO $1.550 con gastos de envío e IVA incluídos, Kit Bolso $3737)""",
+'IMG:registroarg.jpg','VID:registroarg.mp4']
+    },
+    'REGISTRO URUGUAY': {
+        "messages": ["""https://www.myherbalife.com/?ReturnUrl=%2fHome%2fDefault
+
+1. Ingresa al link 
+2. Creas una cuenta con tu email y contraseña 
+3. Pones los datos del sponsor, que en este caso eres tu (TU ID Y APELLIDO ❤️) 
+4. Rellenas tus datos   
+5. Aceptas las garantías de oro (son 6) 
+6. Por último compras el Pack de bienvenida ( Opción Kit Caja RECOMENDADO$1.050 con gastos de envío e IVA incluídos, Kit Bolso $1.725)""",
+'IMG:registrouru1.jpg','IMG:registrouru2.jpg', """Te dejo el video de como registrarte correctamente 
+https://youtu.be/Xcu9dOSmCmg"""]
+    },
+    'REGISTRO CHILE': {
+        "messages": ["""https://accounts.myherbalife.com/Account/Create?appId=1&locale=es-CL&redirect=https://www.myherbalife.com/es-CL/ 🇨🇱 
+
+1. Entra al link 
+2. Creas una cuenta con tu email y contraseña 
+3. Metes los datos del sponsor, que en este caso eres tu (TU ID Y APELLIDO ❤️) 
+4. Rellenas tus datos   5.Aceptas las garantías de oro (son 6) 
+6. Por último compras el Pack de bienvenida ($32.130 con gastos de envío e IVA incluídos)""",
+'IMG:registrochi.jpg',"""Te dejo el video de como registrarte correctamente 
+https://youtu.be/Xcu9dOSmCmg"""]
     }
 }
 
