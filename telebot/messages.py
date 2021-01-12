@@ -2,7 +2,7 @@ import telegram
 
 messageList = {
     "/start" : {
-        "messages" : ['Estas son las acciones básicas.'],
+        "messages" : ['Menú principal.'],
         "keyboard" : [
             ['PASOS DE UNA VENTA',
             'PLANES'],
@@ -205,6 +205,65 @@ https://youtu.be/Xcu9dOSmCmg"""]
 6. Por último compras el Pack de bienvenida ($32.130 con gastos de envío e IVA incluídos)""",
 'IMG:registrochi.jpg',"""Te dejo el video de como registrarte correctamente 
 https://youtu.be/Xcu9dOSmCmg"""]
+    },
+    'SEGUIMIENTO': {
+        'messages': ['PRE PRODUCTO - DÍA  que pago','DIA 0 (recibe los productos)','DIA 1','DIA 2','DIA 3','DIA 7','DIA 14','DIA 21','MENSUAL','Programar Mensajes en Telegram','IDEAS PARA POST','RECETAS','RESULTADO'],
+        'keyboard': [['PRE PRODUCTO', 'DIA 0'],['DIA 1','DIA 2','DIA 3'],['DIA 7','DIA 14','DIA 21'],['MENSUAL','PROGRAMAR MENSAJES']['IDEAS POST','RECETAS','RESULTADO']]
+    },
+    'PRE PRODUCTO': {
+        'messages':['FIL:comienzo.pptx',
+            'IMG:bienvenida.jpg',
+            """🔈Y un pequeño audio con la explicación para que se descargue Telegram y se registre en HLOK""",
+            """Bueno listo! Bájate la app Telegram y avísame así empezamos 😉 Es gratis y no ocupa casi espacio! Decime cuando estés lista con eso!
+Para instalar Telegram en tu móvil, selecciona uno de los siguientes links según sea tu dispositivo:
+👉Si tienes *Android*: https://telegram.org/dl/android
+👉Si tienes *iPhone/iPad*: https://telegram.org/dl/ios""",
+            """Como participar de las actividades ❓
+1ro: te registras gratis en ente Link en la comunidad virtual y participar de las clases 
+(AGREGAR TU LINK DE INVITADOS EN TU HLOK)""",
+            """2do:
+T𝗲𝗻é𝘀 𝗾𝘂𝗲 𝗯𝗮𝗷𝗮𝗿𝘁𝗲 𝗹𝗮 𝗮𝗽𝗹𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗭𝗢𝗢𝗠 𝗱𝗲𝗹 𝗽𝗹𝗮𝘆 𝘀𝘁𝗼𝗿𝗲 ó 𝗰𝗼𝗻 𝗲𝘀𝘁𝗲 𝗹𝗶𝗻𝗸 
+👇👇👇👇👇👇
+https://play.google.com/store/apps/details?id=us.zoom.videomeetings""",
+            """COMO USAR HLOK: en el link que te envíe registrate.
+1) una vez registrada podes ingresa con tu usuario y contraseña desde cualquier dispositivo a la pagina 
+www.hlok.es
+2) Vas a las líneas que hay a la  izquierda y seleccionas opción calendario 🗓 
+3) selecciona día, horario y la actividad .. (las clases son en vivo)
+4) automáticamente te redirige a la sala Zoom ! (Recorda activar tu audio en zoom: Abajo a la izquierda te aparece estos signos 🔈🎧 si no escuchas apreta en el signo y marca “llamar a través del audio del dispositivo” ó “marcar utilizando de internet”) 
+5) listo ✅ disfruta la clase o taller 🌪⚡️❤️
+
+Te envio un video que explica como acceder fácilmente a las actividades y puedas aprovechar nuestra Comunidad Saludable!
+Espero que la Disfrutes!""",
+            'https://youtu.be/krivfCJrJhU',
+            """Súmate al canal de DESAFIO 21D, asi vas viendo los tips y comenzas a poner en práctica en estos dias de adaptación, con este Link  👇 
+(ENVIAR Link Del Canal)""",
+            'GUIA PARA ARMAR PLATOS','recetas saladas','recetas dulces',
+            """*Colaciones inteligentes*
+📌2 huevos duros
+📌2 rodajas de pan lactal de salvado con 100 gramos de jamón cocido natural
+📌1 lata de atún
+📌1 yogurt firme ligth + 10 almendras
+📌3 tostadas riera con queso ligth
+📌*1 batido Herbalife*
+📌1 fruta + 15 almendras""",'colaciones inteligentes']
+    },
+    'DIA 0':{
+        'messages': ["""Estoy muy contenta de que hayas arrancado con tu plan y estoy para ayudarte! 🎉
+Te mando las indicaciones de cómo preparar los productos y te pido que no te olvides de pasarme tu foto inicial y tus medidas cuanto antes, así vamos registrando cada cambio 😃🔝""",
+            """✅Desayuno :
+1️⃣ 200 cc de agua en una licuadora 🍶 + 3 hielos 🧊 + 3 🥄🥄cucharadas de batido nutricional al ras + 1🥄 de proteína al ras
+**Licuar unos minuto y beber**🥤
+2️⃣En 200 cc de agua 🍶 poner una cucharada (tamaño té) de TE HERBAL (se puede hacer frío, tibio o caliente) 🍵
+3️⃣: tomar un vaso de agua al terminar
+**De esta incorporamos todos los nutrientes y activamos el metabolismo aumentando la energia**
+
+DURANTE EL DIA
+Comer algo (colaciones) cada 3 horas
+
+🍽Almuerzo como venis haciendo!! ideal algo de proteína (carne, pollo, pescado o legumbres) con ensalada (o plato del desafío)
+Tomar durante el dia agua!! 1 litro cada 25kg de tu cuerpo. 💦
+🍽CENA como en el almuerzo.""",'GUIA DE BIENESTAR']
     }
 }
 
