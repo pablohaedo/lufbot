@@ -154,12 +154,11 @@ ASOCIADO X DESCUENTOS"""],
     'COMPRAR ARGENTINA': {
         "messages": ["""*HERBALIFE TIENDA. Descárgala en tu celular.*
 Versión para iOS: 
-https://apps.apple.com/ar/app/herbalife-nutrition-tienda/id1154285940
-
-Version para Android:
-https://play.google.com/store/apps/details?id=com.hrbl.mobile.android.ordering | Te envió las indicaciones de como comprar. Lo podes hacer por la aplicación o entrando a la página web.
-
-https://drive.google.com/file/d/1DRTvYbTPo9jHLv6C9zuOa-ncF0ldESXy/view?usp=drivesdk """]
+https://apps.apple.com/ar/app/herbalife-nutrition-tienda/id1154285940""",
+"""Version para Android:
+https://play.google.com/store/apps/details?id=com.hrbl.mobile.android.ordering""",
+"Te envió las indicaciones de como comprar. Lo podes hacer por la aplicación o entrando a la página web.",
+"https://drive.google.com/file/d/1DRTvYbTPo9jHLv6C9zuOa-ncF0ldESXy/view?usp=drivesdk "]
     },
     'COMPRAR URUGUAY': {
         'messages': ['VID:compraruruguay.mp4']
