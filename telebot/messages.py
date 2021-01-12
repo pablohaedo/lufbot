@@ -270,7 +270,78 @@ Comer algo (colaciones) cada 3 horas
 🍽Almuerzo como venis haciendo!! ideal algo de proteína (carne, pollo, pescado o legumbres) con ensalada (o plato del desafío)
 Tomar durante el dia agua!! 1 litro cada 25kg de tu cuerpo. 💦
 🍽CENA como en el almuerzo.""",'GUIA DE BIENESTAR']
+    },
+    'DIA 1': {
+        'messages': ["""Hola....... Como estas? DÍA 1 🥳 que emoción, Ya probaste tu batido, aloe y te ?
+Contame como te preparaste el batido como si tuvieras que enseñarme. 
+
+Del 1 al 10, cuánto te gustó el batido? 
+
+Contame, si el batido te llenó, si quedaste saciada"""]
+    },
+    'DIA 2': {
+        'messages': ["""Hola....Como estas? Buen dia!🤗
+Ya desayunaste?  Del 1 al 10, cuánto te gustó el batido hoy?
+Tienes alguna duda?
+Tenés agendado conectarte a alguna de las actividades?
+
+Lo otro que te quería recordar, es que mandes a la comunidad fotos de tus platos, así veo de ir haciendo alguna corrección si es necesario."""]
+    },
+    'DIA 3': {
+        'messages': ["""Cómo estás ? 
+Felicitaciones, ya estamos en el día 3 de nutrición completa e inteligente. 
+
+Cómo te sentís ? 
+Tu energía? 
+Te sentís más deshinchada? 
+
+Los primeros días podemos notar más una sensación de ansiedad, esto es por el cambio de alimentación, porque estamos tomando menos azúcar de la que normalmente ingerimos en nuestro día a día ! 
+Quizás sientas que el cuerpo te pide más, pero no es hambre, es falta de azúcar. Estamos privando a nuestro organismo de algo que está acostumbrado a tomar y puede que lo notes más estos días !  Contame  qué tal !"""]
+    },
+    'DIA 7': {
+        'messages': ["""Buen día!!!
+Wooowww felicitaciones llegamos a la primer semana de todos estos cambios.🥳
+
+Te sentis más deshinchada ? Más adaptada !? Seguro que si ! 😉 En la energía también notarás mucho más ! 
+Eso es gracias al batido🥤 ya que esta balanceando nuestra alimentación, proporcionándole a nuestras células todos los nutrientes que necesitan para funcionar correctamente!! 
+
+Si estas yendo a orinar más frecuentemente, es normal. Esto es porque aumentaste el consumo de agua 💦 y por el efecto del Té Herbal, ayuda a eliminar radicales libres de nuestro cuerpo. 
+
+Te recuerdo llenar la ficha de seguimiento para ir viendo tus avances ! 📝
+Vamos con todo !💪💪
+
+Alguien de tu entorno ha notado algún cambio de los que me contás?"""]
+    },
+    'DIA 14': {
+        'messages': ["""Hola buen día...
+2 semanitas ya junas en este proceso. ✨✨
+Como te sentiste esta semana?
+Avísame cómo vas ! 
+
+Cómo te te sentís con el grupo de comunidad, lo miras? Te esta sirviendo? 
+
+Recorda llenar tu ficha del día 14 !📝
+
+
+Ya para cuando se te terminen los productos podes evaluar la posibilidad de comprar con descuento generando un usuario y contraseña (yo te ayudo a hacerlo, es muy fácil) y pedis directo en la página de Herbalife con el 25% de descuento! 👍 te dejo un video de 7’ que te explica cómo es! 
+
+https://youtu.be/L6ZwR5l2w90 """]
+    },
+    'DIA 21': {
+        'messages': ["""Buen día!!! 🤗
+
+FELICITACIONES!!!🎉🎉🎉
+Hemos logrado el primer reto, ya 21 dias. 
+Son 21 días para crear un nuevo hábito ! Y cómo siempre digo ... es un día a la vez pero es increíble lo que puedes cambiar en días, lo que te habías acostumbrado en meses !
+
+Vamos a llenar la ficha para ver tus avances y sobre todo la FOTO !!!📝📸 Seguramente vamos a notar grandes cambios.
+
+Contame tu experiencia ! Como te has sentido en este proceso.
+
+Quiero que sigamos en contacto para seguir evaluando y corrigiendo si es necesario. Recuerda que tu participación en el grupo de comunidad y tu experiencia es super importante para ayudar a los que recién están comenzando."""]
     }
 }
 
 
+"""         ['MENSUAL','PROGRAMAR MENSAJES'],
+            ['IDEAS POST','RECETAS','RESULTADO']"""
