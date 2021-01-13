@@ -69,7 +69,7 @@ def respond():
             path = './telebot/videos/{}'.format(message[4:])
             print('EL VIDEO ESTA EN {}'.format(path))
             bot.send_video(chat_id, video=open(path, 'rb'), supports_streaming=True)
-        if message.startswith('FIL:'):
+        elif message.startswith('FIL:'):
             path = './telebot/docs/{}'.format(message[4:])
             print('EL DOCUMENTO ESTA EN {}'.format(path))
             bot.send_document(chat_id, document=open(path, 'rb'))
