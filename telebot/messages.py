@@ -366,5 +366,20 @@ https://t.me/joinchat/AAAAAFj9DgDbdMo3AlWPjQ"""]
         'messages': ["""Resultados 👇
 
 https://t.me/joinchat/AAAAAEYwJl1RXZfgnkEw9A"""]
+    },
+    'MARATON 10 DIAS': {
+        'messages': ["""La *MARATÓN DE 10 DIAS* es un reto de transformación orientado a generar disciplinas positivas para lograr un bienestar en tan sólo 10 días.
+Ser parte de una comunidad activa y entusiasta con objetivos en común te ayudará a lograr resultados increíbles. 
+
+Podrás disfrutar de:
+🔥 Plan de alimentación
+🔥Plan de entrenamiento
+🔥Comunidades entusiastas 
+🔥 Clases de alimentación Online
+🔥Suplementacion para potenciar tu resultado 
+🔥Coach personalizado 24/7
+🔥Atractivos premios
+
+Anímate y pierde de *3 a 5 kilos* en tan sólo 10 Días 💪🏻""",'IMG:maraton1.jpg','IMG:maraton2.jpg','IMG:maraton3.jpg','IMG:maraton4.jpg','IMG:maraton5.jpg','IMG:maraton6.jpg']
     }
 }
