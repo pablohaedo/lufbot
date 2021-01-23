@@ -121,18 +121,20 @@ ASOCIADO X DESCUENTOS"""],
     "PRODUCTOS" : {
         "messages" : ['IMG:IMAGEN1.jpg',
     '''Te cuento que Herbalife salio premiado por la afamada revista Health and Fitness como el mejor desayuno del 2019!!''',
-    'IMG:IMAGEN2.png', 
-    '''Estos son los 3 productos basicos!\n
-    Batido Nutricional:\n
-    Es una comida completa, que te aporta todos los nutrientes que necestias, y tiene las mismas calorias que una manzana🍎!, al igual que todos los productos Herbalife, son naturales, y por eso es que no tienen contraindicaciones y todo el mundo los puede tomar, incluso embarazadas, lactantes y niños!!\n
-    Te va a dar saciedad, energia a full🔋!!!!, Como reemplaza comidas, hace que bajes el exceso de grasa de manera natural! Y como tiene proteina de soja,  te vas a ver tonificada enseguida🏃🏼‍♀️!!\n\n
-    Te de Hierbas:\n
-    Es una bebida a base de Te verde concentrado, y Te negro!!, Si sentis cansancio o desgano durante el dia, este es tu nuevo mejor amigo🤝!, Ademas, tiene una propiedad que acelera el metabolismo, o sea que vas a ir "quemando grasita extra" mientras haces tus actividades del dia. Le decimos el GYM de bolsillo🏃🏼‍♀️!\n\n
-    Aloe Vera:\n
-    Amo este producto!, Ayuda a desintoxicar el aparato digestivo!! Te da una sensacion de alivio inmediato, y al pasar los dias, vas a sentir como te regularizas intestinalmente♻️! Al limpiar el aparato digestivo, permitis que absorba mayor cantidad de nutrientes, de las comidas, y obvio del Batido!!, Los cambios son muy notorios en poco tiempo✅!''',
-    'IMG:IMAGEN3.jpg',
-    '''Proteina:\n
-    Este producto te va a dar super saciedad, pero lo mas importante es que contribuye con practicamente todas las funciones vitales y los sistemas del cuerpo🙋🏼‍♀️!, Ayuda a construir masa muscular de manera natural. Te cuento que el musculo "se alimenta de la grasa" para ganar energia, y por eso es que cuanto mas musculo creas, mas grasa eliminas😉!!, para descenso de peso, si podes añadir este producto en tu plan, vas a ver cambios enseguida!!'''
+    'IMG:IMAGEN2.png','''Estos son los 3 productos basicos!  
+
+Batido Nutricional:
+Es una comida completa, que te aporta todos los nutrientes que necestias, y tiene las mismas calorias que una manzana🍎!, al igual que todos los productos Herbalife, son naturales, y por eso es que no tienen contraindicaciones y todo el mundo los puede tomar!
+Te va a dar saciedad, energia a full🔋!!!!, Como puede reemplazar una comida, te ayuda a reducir los excesos de manera natural! Y como tiene proteina de soja, te vas a ver tonificada enseguida🏃🏼‍♀️!!
+
+Te de Hierbas:
+Es una bebida a base de Te verde concentrado, y Te negro!!, Si sentis cansancio o desgano durante el dia, este es tu nuevo mejor amigo🤝!, Ademas, tiene una propiedad que acelera el metabolismo, o sea que vas a ir ""quemando grasita extra"" mientras haces tus actividades del dia. Le decimos el GYM de bolsillo🏃🏼‍♀️!
+
+Aloe Vera:
+Amo este producto!, Ayuda a desintoxicar el aparato digestivo!! Te da una sensacion de alivio inmediato, y al pasar los dias, vas a sentir como te regularizas intestinalmente♻️! Al limpiar el aparato digestivo, permitis que absorba mayor cantidad de nutrientes, de las comidas, y obvio del Batido!!, Los cambios son muy notorios en poco tiempo✅!''',
+'IMG:IMAGEN3.jpg','''La *proteína* es un producto que se le agrega al batido para darle más valor proteico. Te da mayor saciedad y ayuda a ganar masa muscular🏋‍♂..no tiene gusto entonces también yo la uso para cocinar dulce🥞 o salado🍲
+Te ayuda mucho a tonificar y que al bajar todo quede en su lugar 😜
+'''
     ]
     },
     "OBJECIONES" : {
@@ -244,7 +246,7 @@ Espero que la Disfrutes!""",
             'https://youtu.be/krivfCJrJhU',
             """Súmate al canal de DESAFIO 21D, asi vas viendo los tips y comenzas a poner en práctica en estos dias de adaptación, con este Link  👇 
 (ENVIAR Link Del Canal)""",
-            'GUIA PARA ARMAR PLATOS','recetas saladas','recetas dulces',
+            'FIL:guia_para_armar_platos.pdf','FIL:recetas_saladas.pdf','FIL:recetas_dulces.pdf',
             """*Colaciones inteligentes*
 📌2 huevos duros
 📌2 rodajas de pan lactal de salvado con 100 gramos de jamón cocido natural
@@ -269,7 +271,7 @@ Comer algo (colaciones) cada 3 horas
 
 🍽Almuerzo como venis haciendo!! ideal algo de proteína (carne, pollo, pescado o legumbres) con ensalada (o plato del desafío)
 Tomar durante el dia agua!! 1 litro cada 25kg de tu cuerpo. 💦
-🍽CENA como en el almuerzo.""",'GUIA DE BIENESTAR']
+🍽CENA como en el almuerzo.""",'IMG:GUIA_DE_BIENESTAR.jpg']
     },
     'DIA 1': {
         'messages': ["""Hola....... Como estas? DÍA 1 🥳 que emoción, Ya probaste tu batido, aloe y te ?
@@ -347,12 +349,13 @@ Quiero que sigamos en contacto para seguir evaluando y corrigiendo si es necesar
         'messages': ['https://youtu.be/gqHmIQj18Tk']
     },
     'IDEAS POST': {
-        'messages': ['Reto de Transformacion Personal',"""Región SAM/CAM
-https://www.estoesherbalife.com/sc/reto-transformacion"""]
+        'messages': ["""Reto de Transformacion Personal Región SAM/CAM
+https://www.estoesherbalife.com/sc/reto-transformacion""",
+'https://yosoyherbalifenutrition.com/salud-y-bienestar/ ']
     },
     'RECETAS': {
-        'messages': ['MI NUTRICION FAVORITA - LIBRO DE RECETAS HERBALIFE',
-            'Mi-Nutricion-Favorita_Tomo-II',
+        'messages': ['FIL:MI_NUTRICION FAVORITA-LIBRO_DE_RECETAS_HERBALIFE.pdf',
+            'FIL:Mi-Nutricion-Favorita_Tomo-II.pdf',
             """Recetas de batidos 👇
 https://t.me/joinchat/AAAAAEetGY990CnScYq_uA""",
             """Aprende a comer 👇
@@ -381,5 +384,135 @@ Podrás disfrutar de:
 🔥Atractivos premios
 
 Anímate y pierde de *3 a 5 kilos* en tan sólo 10 Días 💪🏻""",'IMG:maraton1.jpg','IMG:maraton2.jpg','IMG:maraton3.jpg','IMG:maraton4.jpg','IMG:maraton5.jpg','IMG:maraton6.jpg']
+    },
+    "HLOK" : {
+        "messages" : ['INVITADO','FLYERS','Tutoriales asociados'], 
+        "keyboard" : [['INVITADO'],['FLYERS'],['TUTORIALES']]
+    },
+    "INVITADO" : {
+        "messages" : ['''COMO USAR HLOK: 
+
+1) una vez registrada (con el link que te envie) podes ingresar con tu usuario y contraseña desde cualquier dispositivo a la pagina 
+
+www.hlok.es
+2) Vas a las líneas que hay a la  izquierda y seleccionas opción calendario 
+3) selecciona día, horario y la actividad .. (las clases son en vivo)
+4) automáticamente te redirige a la sala Zoom ! (Recorda activar tu audio en zoom: Abajo a la izquierda te aparece estos signos 🔈🎧 si no escuchas apreta en el signo y marca “llamar a través del audio del dispositivo” ó “marcar utilizando internet”) 
+5) listo ✅ disfruta la clase o taller 🌪⚡️❤️
+
+Avísame cuando te registres asi te envío un video que explica como usar bien la página para que aproveches mejor las actividades que vos quieras 😉''',
+'''Te envio un video que explica como acceder fácilmente a las actividades y puedas aprovechar nuestra Comunidad Saludable!
+
+Espero que la Disfrutes!
+
+https://youtu.be/krivfCJrJhU ''']
+    },
+    'FLYERS' : {
+        "messages" : ['''CANAL FLYERS 
+https://t.me/joinchat/AAAAAFQGYsKMPgqMHrXJZA''']
+    },
+    'TUTORIALES' : {
+        "messages" : ['''Canal TUTORIAL ASOCIADOS
+https://t.me/joinchat/AAAAAFFfGGHpY08TNJPcFQ''']
+    },
+    "CAPACITACION" : {
+        "messages" : ['FORMACIONES BÁSICAS','PLANILLAS DE HÁBITOS','AUDIOS', 'MANUAL 4'],
+        "keyboard" : [['FORMACIONES BASICAS'],['PLANILLAS DE HABITOS'],['AUDIOS','MANUAL 4']]
+    },
+    "FORMACIONES BASICAS" : {
+        "messages" : ['''Formaciones básicas 👇
+
+https://t.me/joinchat/AAAAAFjhbwSHcIocvXaMMw''','''Usar Llevar y Atraer
+
+https://www.youtube.com/watch?v=O_H6zWWIOKI''']
+    },
+    "PLANILLAS DE HABITOS" : {
+        "messages" : ['''FIL:13-Pasos_para_el_Exito.pdf''','''Modelo de presupuesto finanzas personales 
+
+https://drive.google.com/file/d/1Nj_w8Z5T9qw7pJkcy8sntbdaiGuxYNiV/view?usp=drivesdk''']
+    },
+    "AUDIOS" : {
+        "messages" : ['''JIM ROHN - LA PARABOLA DEL SEMBRADOR
+
+https://www.youtube.com/watch?v=f6i455QJhec''','''CONSTRUYENDO SU RED DE MERCADEO - JIM ROHN
+
+https://www.youtube.com/watch?v=5v9QtjAI-zI''','''Jim Rohn El mejor audio de entrenamiento de Jim Rohn
+
+https://www.youtube.com/watch?v=syheoEE_-ds''','''Cambia tu mentalidad - Eduardo Salazar
+
+https://www.youtube.com/watch?v=NXHB8bXDNmg''']
+    },
+    "MANUAL 4" : {
+        "messages" : ['FIL:AR-LIBRO4.pdf']
+    },
+     "DESAFIO 5D" : {
+        "messages" : ['INVITACIONES','DESAFIO 5D AMIGAS','INFO PARA GRUPOS 5D'],
+        "keyboard" : [['INVITACIONES'],['DESAFIO 5D AMIGAS'],['INFO PARA GRUPOS 5D']]
+    },
+    "INVITACIONES" : {
+        "messages" : ['''Hola 😁, cómo estás? 
+Te cuento que vamos a comenzar un DESAFÍO 5 DÍAS TOTALMENTE GRATIS ✨ para todos los interesados en:
+
+✔️Bajar de peso
+✔️Mejorar su alimentación
+✔️Controlar la ansiedad
+✔️Aumentar su masa muscular
+✔️Crear hábitos saludables
+
+Se realiza por  un grupo de WhatsApp restringido que no tiene interacción, sólo INFORMACIÓN📝
+
+ Recibirás :
+1️⃣ Tips saludables para lograr TU OBJETIVO ‼️🥗 
+2️⃣ Acceso a Talleres virtuales EN VIVO: cocina saludable,🥘 alimentación correcta👌🏻, yoga🧘🏻‍♀️ y gimnasia funcional🤸🏻‍♀️ con profesores certificados._
+3️⃣ RECETAS SALUDABLES, SIMPLES Y RICAS
+4️⃣ Durante 5 dias recibiras asesoramiento premium, de parte de tu coach!, con quien en ese periodo podras hacer todo tipo de consultas,como si ya estuvieras participando del 🏵DESAFIO 21 PRO🏵
+                                        
+⭐️Al finalizar recibirás un regalo para poder continuar avanzando hacia tu MEJOR VERSIÓN.
+
+Si querés participar escribí QUIERO haciendo click en este link👇
+
+wa.me/(coloca tu número celular con el codigo de pais sin 0 y sin 15) 
+
+⚠️Los cupos son limitados💫, por lo que te sugiero te anotes cuanto antes. ''','''RESPUESTA AL GUION DE INVITACION (por WA)''','''Hola! Bienvenid@! 
+Como estas? 😃
+
+Mi nombre es ---------! 🙋🏻‍♀️ 
+ 
+Qué bueno que te interese participar en nuestro *DESAFÍO de 5 días totalmente GRATUITO y VIRTUAL!* Te felicito por *_ocuparte de tu bienestar!_*🥰  Recibirás información muy valiosa para _forjar hábitos saludables._ Empezamos un nuevo desafío el próximo *LUNES* .
+
+*Contame* 
+
+✳️ Tu nombre? 
+✳️ Tu edad? 
+✳️ Que resulatdo estás buscando tener?''','''Excelente!!!! Vamos a pasar una semana muy linda aprendiendo un montón de cosas para dar inicio a los cambios que vos queres conseguir!! 💛 |
+
+Te pido que me agendes así te puedo ir mandando desde el sistema (lista de difusión) información complementaria para optimizar el seguimiento y asegurarnos tu resultado! 🤝💚 No voy a ser para nada invasivo, y si queres dejar de recibir los mensajes me avisas y te saco de la lista ✅ 
+
+*La intención del desafío de 5 dias! Es que puedas recibir valor y herramientas que te ayuden a empezar el cambio!, y además mostrarte un poco la forma de trabajo que tenemos en los *DESAFIOS 21 DÍAS PRO*, en donde el cambio y la transformación es total y permanente! 💚🙌*''','''Te va a encantar 
+Podes invitar a 5 personas más si querés. Y me pasas sus nros que los agrego🙌🏻💫''','''LUEGO SE LOS AGREGA AL GRUPO Y A LA LISTA DE DIFUSIÓN!
+
+
+
+Felicitaciones por tomar la responsabilidad de tu salud! 💛 Ahora vamos JUNTOS! ''','''IMG:desafio5d.jpg''']
+    },
+    "DESAFIO 5D AMIGAS" : {
+        "messages": ['''Este es un Desafio de whatsapp, donde solo participan amigas de clientas y clientas. 
+La idea es que por privado le sugieras a tu cliente la posiblidad de sumar amigos al desafio 5d gratuito y de esta forma si ellos luego se suman al desafio 21d van  avanzar en la escala de descuentos
+EJEMPLO (puede ser por audio):
+Hola XXX como estas?
+Te cuento que estamos armando un desafio 5 dias gratuito para compartir con amigas y amigos!!
+Voy a estar acompañadolas en esos días y pasando tips y recetas 
+Si tus amigas se suman ...te van ayudar a que puedas tener mas descuento en tus productos..te gusta la idea????''',
+'''cuando la clienta dice que si!  se le explica que ella tambien va a estar en el grupo de whatsapp, para darle confianza a sus amigas y se le pide porfavor, que comparta su desayuno, su actividad, y todo lo que ella misma vio de otras que la inspiraron!  tenemos que inspirar a tus amigas !!
+De esta manera ya empiezan a hacer la actividad de Coaches sin saberlo.''','''Si necesitan de apoyo para poder invitar a sus amigas.. se les comparte esta foto para que inviten ya q muchas quieren publicarlo en sus redes''',
+'''IMG:desafio5damigas.jpg''','''Otra opcion para que compartan''',''' Hola cómo estaaaassssss 🌷💟🌼  ! te cuento que este lunes se hace un desafío de 5 días  #fullDetox, que es totalmente GRATUITO, para mejorar hábitos de alimentación y sumar algo de ejercicio a tu semana ! 💪🏽 solamente se realiza  con amigas de participantes..y como yo estoy, te puedo invitar!!! es genial! 
+
+Avisame y Si queres te sumo para guardarte el lugar y le paso tu numero a mi Coach ✨🍋🌼  🥰!!! 🥳🥳🥳 🕺🙌🏻🌸''']
+    },
+    "INFO PARA GRUPOS 5D": {
+        "messages": ['Sumate a estos canales y usalos como modelo para tu desafio de 5D',
+        'https://t.me/joinchat/AAAAAFdkDiup5HFlzmXJMg',
+        'https://t.me/joinchat/VRqy4nbwxrexAY48',
+        'https://t.me/joinchat/AAAAAFSIgtterMIWVRB8Gg']
     }
 }

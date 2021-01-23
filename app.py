@@ -77,42 +77,6 @@ def respond():
             bot.send_message(chat_id=chat_id, text=message, reply_markup=reply_markup)
     return 'ok'
 
-
-    if text == "/start":
-        # print the welcoming message
-        bot_welcome = """
-        PH237, HOLA LUJAN
-        """
-        # send the welcoming message
-        
-        bot.sendMessage(chat_id=chat_id, text=bot_welcome, reply_to_message_id=msg_id)
-
-    else:
-        try:
-            # clear the message we got from any non alphabets
-            text = re.sub(r"W", "_", text)
-
-            url = "Lujaaan, no me escribas {}".format(text.strip())
-            
-            if text == 'GOLPEAR':
-                url='Golpear no esta bien'
-            bot.sendChatAction(chat_id=chat_id, action="typing")
-            if text == 'ABRAZAR':
-                url='Love is love'
-            sleep(1.5)
-            keyboard=[['GOLPEAR','ABRAZAR']]
-            reply_markup = telegram.ReplyKeyboardMarkup(keyboard,
-                one_time_keyboard=True,
-                resize_keyboard=True)
-            bot.send_message(chat_id=chat_id, reply_to_message_id=msg_id, text=url, reply_markup=reply_markup)
-            #bot.sendPhoto(chat_id=chat_id, photo=url, reply_to_message_id=msg_id)
-        except Exception as error:
-            # if things went wrong
-            bot.sendMessage(chat_id=chat_id, text="There was a problem in the name you used, please enter different name", reply_to_message_id=msg_id)
-            print(error)
-
-    return 'ok'
-
 @app.route('/setwebhook', methods=['GET', 'POST'])
 def set_webhook():
     # we use the bot object to link the bot to our app which live
