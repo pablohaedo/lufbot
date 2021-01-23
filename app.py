@@ -14,11 +14,7 @@ global TOKEN
 TOKEN = BOT_TOKEN
 bot = telegram.Bot(token=TOKEN)
 
-
 app = Flask(__name__)
-
-
-
 
 @app.route('/{}'.format(TOKEN), methods=['POST'])
 def respond():
@@ -38,7 +34,7 @@ def respond():
     # Telegram understands UTF-8, so encode text for unicode compatibility
     if update.message.text is None:
         print('sale por falta de text???')
-        bot.sendMessage(chat_id=chat_id, text='que hago aca?', reply_to_message_id=msg_id)
+        bot.sendMessage(chat_id=chat_id, text='Mh... no me llegó el mensaje', reply_to_message_id=msg_id)
         return 'ok'
 
 
