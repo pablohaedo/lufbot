@@ -2,9 +2,12 @@ from telebot.base import Base
 from sqlalchemy import Column, String, Integer, Boolean, TIMESTAMP, ForeignKey
 from sqlalchemy.orm import relationship
 
+TABLE_ID = Sequence('message_id_seq', start=1000)
+
 class Message(Base):
     __tablename__ = 'message'
 
+    id = Column(Integer, primary_key= True, server_default=TABLE_ID.next_value())
     message_id = Column(Integer)
     date = Column(TIMESTAMP)
 
