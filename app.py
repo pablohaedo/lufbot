@@ -98,9 +98,13 @@ def migrate():
     Base.metadata.create_all(engine)
     session = Session()
 
-    session.add(Chat())
-    session.add(User())
-    session.add(Message())
+    ch = Chat()
+    us = User()
+    ms = Message()
+    ms.user = us
+    ms.chat = ch
+    
+    session.add(ms)
     
     session.commit()
     session.close()
