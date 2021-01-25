@@ -6,7 +6,7 @@ from time import sleep
 from telebot.messages import messageList
 from telebot.config import BOT_TOKEN, BOT_USERNAME, CALLBACK_URL, DATABASE_URL
 import psycopg2
-
+from services.logger import log
 
 global bot
 global TOKEN
@@ -21,7 +21,7 @@ def respond():
     # retrieve the message in JSON and then transform it to Telegram object
     update = telegram.Update.de_json(request.get_json(force=True), bot)
 
-    print(update)
+    log(update)
     try:
         chat_id = update.message.chat.id
         msg_id = update.message.message_id
@@ -33,16 +33,16 @@ def respond():
 
     # Telegram understands UTF-8, so encode text for unicode compatibility
     if update.message.text is None:
-        print('sale por falta de text???')
+        log('sale por falta de text???')
         bot.sendMessage(chat_id=chat_id, text='Mh... no me llegó el mensaje', reply_to_message_id=msg_id)
         return 'ok'
 
 
     #    chatInfo = bot.getChat(chat_id)
-    #    print(chatInfo)
+    #    log(chatInfo)
     text = update.message.text.encode('utf-8').decode()
     # for debugging purposes only
-    print("got text message :", text)
+    log("got text message :", text)
     # the first time you chat with the bot AKA the welcoming message
 
     if text not in messageList:
@@ -58,15 +58,15 @@ def respond():
     for message in nodo['messages']:
         if message.startswith('IMG:'):
             path = './telebot/imgs/{}'.format(message[4:])
-            print('LA IMAGEN ESTA EN {}'.format(path))
+            log('LA IMAGEN ESTA EN {}'.format(path))
             bot.send_photo(chat_id, photo=open(path, 'rb'))
         elif message.startswith('VID:'):
             path = './telebot/videos/{}'.format(message[4:])
-            print('EL VIDEO ESTA EN {}'.format(path))
+            log('EL VIDEO ESTA EN {}'.format(path))
             bot.send_video(chat_id, video=open(path, 'rb'), supports_streaming=True)
         elif message.startswith('FIL:'):
             path = './telebot/docs/{}'.format(message[4:])
-            print('EL DOCUMENTO ESTA EN {}'.format(path))
+            log('EL DOCUMENTO ESTA EN {}'.format(path))
             bot.send_document(chat_id, document=open(path, 'rb'))
         else:
             bot.send_message(chat_id=chat_id, text=message, reply_markup=reply_markup)
@@ -101,8 +101,8 @@ def db():
         conn.close()
         return 'ok'
     except Exception as error:
-        print('LLEGA ACAAAA')
-        print(error)
+        log('LLEGA ACAAAA')
+        log(error)
         return '.'
 
 @app.route('/db', methods=['GET'])
@@ -112,13 +112,13 @@ def dbSelect():
         cur = conn.cursor()
         cur.execute("SELECT * FROM test;")
         ret = cur.fetchone()
-        print(ret)
+        log(ret)
         cur.close()
         conn.close()
         return ret
     except Exception as error:
-        print('LLEGA')
-        print(error)
+        log('LLEGA')
+        log(error)
         return '.'
 
 
