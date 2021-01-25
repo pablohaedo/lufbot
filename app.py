@@ -6,7 +6,7 @@ from time import sleep
 from telebot.messages import messageList
 from telebot.config import BOT_TOKEN, BOT_USERNAME, CALLBACK_URL, DATABASE_URL
 import psycopg2
-from services.logger import log
+from .telebot.services.logger import log
 
 global bot
 global TOKEN
