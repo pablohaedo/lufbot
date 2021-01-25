@@ -39,7 +39,7 @@ ASOCIADO X DESCUENTOS"""],
         "messages" : ["""PUBLICO
 CLIENTES PREFERENTES 25%
 ASOCIADO X DESCUENTOS"""], 
-        "keyboard" : [['CHI PUBLICO'],['CHI 25'],['CHI ASOCIADOS']]
+        "keyboard" : [['CHI PUBLICO'],['CHI PREFERENTES 25'],['CHI ASOCIADOS']]
     },
     "CHI PUBLICO" : {
         "messages" : ['IMG:listado/chi/publico/1.jpg','IMG:listado/chi/publico/2.jpg','IMG:listado/chi/publico/3.jpg']
