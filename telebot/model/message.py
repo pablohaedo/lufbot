@@ -1,5 +1,5 @@
 from telebot.base import Base
-from sqlalchemy import Column, String, Integer, Boolean, TIMESTAMP, ForeignKey
+from sqlalchemy import Column, String, Integer, Boolean, TIMESTAMP, ForeignKey, Sequence
 from sqlalchemy.orm import relationship
 
 TABLE_ID = Sequence('message_id_seq', start=1000)
