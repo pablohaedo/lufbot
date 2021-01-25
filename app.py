@@ -21,7 +21,7 @@ def respond():
     # retrieve the message in JSON and then transform it to Telegram object
     update = telegram.Update.de_json(request.get_json(force=True), bot)
 
-    log(update)
+    log(str(update))
     try:
         chat_id = update.message.chat.id
         msg_id = update.message.message_id
@@ -42,7 +42,7 @@ def respond():
     #    log(chatInfo)
     text = update.message.text.encode('utf-8').decode()
     # for debugging purposes only
-    log("got text message :", text)
+    log("got text message : {}".format(text))
     # the first time you chat with the bot AKA the welcoming message
 
     if text not in messageList:
@@ -102,7 +102,7 @@ def db():
         return 'ok'
     except Exception as error:
         log('LLEGA ACAAAA')
-        log(error)
+        log(str(error))
         return '.'
 
 @app.route('/db', methods=['GET'])
@@ -118,7 +118,7 @@ def dbSelect():
         return ret
     except Exception as error:
         log('LLEGA')
-        log(error)
+        log(str(error))
         return '.'
 
 
