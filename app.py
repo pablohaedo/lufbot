@@ -103,18 +103,19 @@ def migrate():
     ms = Message()
     ms.user = us
     ms.chat = ch
-    
+
     session.add(ms)
     
     session.commit()
     session.close()
 
-    # users = session.query(User).all()
-    # log('\n### All movies:')
-    # for movie in users:
-    #     log(f'{movie.first_name} was released on {movie.last_name}')
-    # log('')
-    # pass
+    session = Session()
+    users = session.query(User).all()
+    log('\n### All movies:')
+    for movie in users:
+        log(f'{movie.first_name} was released on {movie.last_name}')
+    log('')
+    return 'ok'
 
 @app.route('/dbStart', methods=['GET'])
 def db():
