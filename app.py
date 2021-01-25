@@ -7,6 +7,7 @@ from telebot.messages import messageList
 from telebot.config import BOT_TOKEN, BOT_USERNAME, CALLBACK_URL, DATABASE_URL
 import psycopg2
 from telebot.services.logger import log
+from telebot.base import Base, Session, engine
 
 global bot
 global TOKEN
@@ -87,14 +88,70 @@ def set_webhook():
 def index():
     return '.'
 
+@app.route('/migrate', methods=['GET'])
+def migrate():
+    ses = Session()
+    from telebot.model.user import User
+    from telebot.model.message import Message
+    from telebot.model.chat import Chat
+
+    Base.metadata.create_all(engine)
+    session = Session()
+
+    session.add(Chat())
+    session.add(User())
+    session.add(Message())
+    
+    session.commit()
+    session.close()
+
+    # users = session.query(User).all()
+    # log('\n### All movies:')
+    # for movie in users:
+    #     log(f'{movie.first_name} was released on {movie.last_name}')
+    # log('')
+    # pass
+
 @app.route('/dbStart', methods=['GET'])
 def db():
     try:
         conn = psycopg2.connect(DATABASE_URL, sslmode='require')
         cur = conn.cursor()
         # cur.execute("""create database bot;""")
-        cur.execute("CREATE TABLE test (id serial PRIMARY KEY, num integer, data varchar);")
-        cur.execute("INSERT INTO test (num, data) VALUES (%s, %s)", (100, "abc'def"))
+        #cur.execute("CREATE TABLE test (id serial PRIMARY KEY, num integer, data varchar);")
+        #cur.execute("INSERT INTO test (num, data) VALUES (%s, %s)", (100, "abc'def"))
+        c1 = """create table if not exists `chat`  (
+    `id` NUMERIC PRIMARY KEY,
+    `type` varchar(50) DEFAULT '',
+    `title` varchar(255) DEFAULT '',
+    `all_members_are_administrators` boolean default false
+    );"""
+
+        c2 = """create table if not exists `user` (
+    `id` NUMERIC PRIMARY KEY,
+    `first_name` VARCHAR(255) default '',
+    `last_name` VARCHAR(255) DEFAULT '',
+    `language_code` VARCHAR(5) default '',
+    `is_bot` boolean defaulr false
+);"""
+
+        c3 = """create table if not exists `message` (
+    `message_id` NUMERIC not null,
+    `date` TIMESTAMP not null,
+    `chat_id` NUMERIC NOT NULL REFERENCES `chat` (`id`),
+    `text` TEXT DEFAULT '',
+    `delete_chat_photo` BOOLEAN default false,
+    `group_chat_created` BOOLEAN default false,
+    `supergroup_chat_created` BOOLEAN default false,
+    `channel_chat_created` BOOLEAN default false,
+    `user_id` NUMERIC not null REFERENCES `user` (`id`)
+);"""
+        log(cur.execute(c1))
+        log(c1)
+        log(cur.execute(c2))
+        log(c2)
+        log(cur.execute(c3))
+        log(c3)
         cur.close()
         # commit the changes
         conn.commit()
