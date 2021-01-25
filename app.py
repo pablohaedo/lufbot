@@ -56,7 +56,6 @@ def respond():
             one_time_keyboard=True,
             resize_keyboard=True)
     for message in nodo['messages']:
-        sleep(0.2)
         if message.startswith('IMG:'):
             path = './telebot/imgs/{}'.format(message[4:])
             print('LA IMAGEN ESTA EN {}'.format(path))
