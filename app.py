@@ -6,7 +6,7 @@ from time import sleep
 from telebot.messages import messageList
 from telebot.config import BOT_TOKEN, BOT_USERNAME, CALLBACK_URL, DATABASE_URL
 import psycopg2
-from .telebot.services.logger import log
+from telebot.services.logger import log
 
 global bot
 global TOKEN
@@ -57,15 +57,15 @@ def respond():
             resize_keyboard=True)
     for message in nodo['messages']:
         if message.startswith('IMG:'):
-            path = './telebot/imgs/{}'.format(message[4:])
+            path = './telebot/resources/imgs/{}'.format(message[4:])
             log('LA IMAGEN ESTA EN {}'.format(path))
             bot.send_photo(chat_id, photo=open(path, 'rb'))
         elif message.startswith('VID:'):
-            path = './telebot/videos/{}'.format(message[4:])
+            path = './telebot/resources/videos/{}'.format(message[4:])
             log('EL VIDEO ESTA EN {}'.format(path))
             bot.send_video(chat_id, video=open(path, 'rb'), supports_streaming=True)
         elif message.startswith('FIL:'):
-            path = './telebot/docs/{}'.format(message[4:])
+            path = './telebot/resources/docs/{}'.format(message[4:])
             log('EL DOCUMENTO ESTA EN {}'.format(path))
             bot.send_document(chat_id, document=open(path, 'rb'))
         else:
