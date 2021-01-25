@@ -9,7 +9,7 @@ class Chat(Base):
     title = Column(String)
     all_members_are_administrators = Column(Boolean)
 
-    def __init__():
+    def __init__(self):
         self.id = 999
         self.type = 'ph'
         self.all_members_are_administrators = True

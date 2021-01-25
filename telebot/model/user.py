@@ -10,7 +10,7 @@ class User(Base):
     language_code = Column(String)
     is_bot = Column(Boolean)
 
-    def __init__():
+    def __init__(self):
         self.id = 999
         self.first_name = 'ph'
         self.last_name = 'test'

@@ -24,6 +24,6 @@ class Message(Base):
     user_id = Column(Integer, ForeignKey('user.id'))
     user = relationship("User", backref="messages")
 
-    def __init__():
+    def __init__(self):
         self.message_id = 999
         self.text = 'wowowowowo'
