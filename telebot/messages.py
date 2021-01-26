@@ -180,10 +180,11 @@ https://play.google.com/store/apps/details?id=com.hrbl.mobile.android.ordering""
 2. Seleccionar tu pais
 3. Hace click en: Registrate como distribuidor independiente (aplica en linea)
 4. Generar tu usuario con tu mail y una clave
-5. Aceptar las reglas del standard de oro (marca en cada casillero)
+5. Aceptar las reglas del standard de oro 
 6. Poner  los datos de tu patrocinador, ( ID Y  PRIMERAS 3 LETRAS DEL APELLIDO ❤️) 
-7. Por último comprar el Pack de bienvenida SI ES QUE AUN NO LO TENES  (Opción Kit Caja RECOMENDADO $1.550 con gastos de envío e IVA incluídos, Kit Bolso $3737)""",
-'IMG:registroarg.jpg','VID:registroarg.mp4']
+
+7. Por último comprar el Pack de bienvenida SI ES QUE AUN NO LO TENES  (Opción Kit Caja (con Aloe de regalo) RECOMENDADO $2610 con gastos de envío e IVA incluídos, Kit Bolso $3737)""",
+'IMG:registroarg.png','https://youtu.be/ih08-HFsmRs']
     },
     'REGISTRO URUGUAY': {
         "messages": ["""https://www.myherbalife.com/?ReturnUrl=%2fHome%2fDefault
@@ -254,7 +255,7 @@ Espero que la Disfrutes!""",
 📌1 yogurt firme ligth + 10 almendras
 📌3 tostadas riera con queso ligth
 📌*1 batido Herbalife*
-📌1 fruta + 15 almendras""",'colaciones inteligentes']
+📌1 fruta + 15 almendras""",'FIL:colacionesinteligentes.jpg']
     },
     'DIA 0':{
         'messages': ["""Estoy muy contenta de que hayas arrancado con tu plan y estoy para ayudarte! 🎉
@@ -357,7 +358,7 @@ https://www.estoesherbalife.com/sc/reto-transformacion""",
         'messages': ['FIL:MI_NUTRICION FAVORITA-LIBRO_DE_RECETAS_HERBALIFE.pdf',
             'FIL:Mi-Nutricion-Favorita_Tomo-II.pdf',
             """Recetas de batidos 👇
-https://t.me/joinchat/AAAAAEetGY990CnScYq_uA""",
+https://t.me/joinchat/Rfr9x7zNVhLParXf""",
             """Aprende a comer 👇
 https://t.me/joinchat/AAAAAEaZ4iGdpyh7JTsXUw""",
             """DRIVE RECETAS
@@ -366,9 +367,8 @@ https://drive.google.com/drive/folders/1XFosFLxuxG91HjKyQG7VyCNgWdvZaqWP?usp=sha
 https://t.me/joinchat/AAAAAFj9DgDbdMo3AlWPjQ"""]
     },
     'RESULTADO': {
-        'messages': ["""Resultados 👇
-
-https://t.me/joinchat/AAAAAEYwJl1RXZfgnkEw9A"""]
+        'messages': ["""Resultados My Team 👇
+https://t.me/joinchat/RiTyNFsyxuVzmKYf"""]
     },
     'MARATON 10 DIAS': {
         'messages': ["""La *MARATÓN DE 10 DIAS* es un reto de transformación orientado a generar disciplinas positivas para lograr un bienestar en tan sólo 10 días.
