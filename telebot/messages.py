@@ -367,7 +367,10 @@ https://drive.google.com/drive/folders/1XFosFLxuxG91HjKyQG7VyCNgWdvZaqWP?usp=sha
 https://t.me/joinchat/AAAAAFj9DgDbdMo3AlWPjQ"""]
     },
     'RESULTADO': {
-        'messages': ["""Resultados My Team 👇
+        'messages': ["""Resultados 👇
+
+https://t.me/joinchat/AAAAAEYwJl1RXZfgnkEw9A""",
+"""Resultados My Team 👇
 https://t.me/joinchat/RiTyNFsyxuVzmKYf"""]
     },
     'MARATON 10 DIAS': {
