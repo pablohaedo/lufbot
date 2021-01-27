@@ -33,44 +33,46 @@ def respond():
     #return 'ok'
 
     # Telegram understands UTF-8, so encode text for unicode compatibility
-    if update.message.text is None:
-        log('sale por falta de text???')
-        bot.sendMessage(chat_id=chat_id, text='Mh... no me llegó el mensaje', reply_to_message_id=msg_id)
-        return 'ok'
+        if update.message.text is None:
+            log('sale por falta de text???')
+            bot.sendMessage(chat_id=chat_id, text='Mh... no me llegó el mensaje', reply_to_message_id=msg_id)
+            return 'ok'
 
+    try:
+        #    chatInfo = bot.getChat(chat_id)
+        #    log(chatInfo)
+        text = update.message.text.encode('utf-8').decode()
+        # for debugging purposes only
+        log("got text message : {}".format(text))
+        # the first time you chat with the bot AKA the welcoming message
 
-    #    chatInfo = bot.getChat(chat_id)
-    #    log(chatInfo)
-    text = update.message.text.encode('utf-8').decode()
-    # for debugging purposes only
-    log("got text message : {}".format(text))
-    # the first time you chat with the bot AKA the welcoming message
+        if text not in messageList:
+            text = '/start'
 
-    if text not in messageList:
-        text = '/start'
-
-    bot.sendChatAction(chat_id=chat_id, action="typing")
-    nodo = messageList[text]
-    reply_markup = {}
-    if 'keyboard' in nodo:
-        reply_markup = telegram.ReplyKeyboardMarkup(nodo['keyboard'],
-            one_time_keyboard=True,
-            resize_keyboard=True)
-    for message in nodo['messages']:
-        if message.startswith('IMG:'):
-            path = './telebot/resources/imgs/{}'.format(message[4:])
-            log('LA IMAGEN ESTA EN {}'.format(path))
-            bot.send_photo(chat_id, photo=open(path, 'rb'))
-        elif message.startswith('VID:'):
-            path = './telebot/resources/videos/{}'.format(message[4:])
-            log('EL VIDEO ESTA EN {}'.format(path))
-            bot.send_video(chat_id, video=open(path, 'rb'), supports_streaming=True)
-        elif message.startswith('FIL:'):
-            path = './telebot/resources/docs/{}'.format(message[4:])
-            log('EL DOCUMENTO ESTA EN {}'.format(path))
-            bot.send_document(chat_id, document=open(path, 'rb'))
-        else:
-            bot.send_message(chat_id=chat_id, text=message, reply_markup=reply_markup)
+        bot.sendChatAction(chat_id=chat_id, action="typing")
+        nodo = messageList[text]
+        reply_markup = {}
+        if 'keyboard' in nodo:
+            reply_markup = telegram.ReplyKeyboardMarkup(nodo['keyboard'],
+                one_time_keyboard=True,
+                resize_keyboard=True)
+        for message in nodo['messages']:
+            if message.startswith('IMG:'):
+                path = './telebot/resources/imgs/{}'.format(message[4:])
+                log('LA IMAGEN ESTA EN {}'.format(path))
+                bot.send_photo(chat_id, photo=open(path, 'rb'))
+            elif message.startswith('VID:'):
+                path = './telebot/resources/videos/{}'.format(message[4:])
+                log('EL VIDEO ESTA EN {}'.format(path))
+                bot.send_video(chat_id, video=open(path, 'rb'), supports_streaming=True)
+            elif message.startswith('FIL:'):
+                path = './telebot/resources/docs/{}'.format(message[4:])
+                log('EL DOCUMENTO ESTA EN {}'.format(path))
+                bot.send_document(chat_id, document=open(path, 'rb'))
+            else:
+                bot.send_message(chat_id=chat_id, text=message, reply_markup=reply_markup)
+    except telegram.error.Unauthorized:
+        return "ok"
     return 'ok'
 
 @app.route('/setwebhook', methods=['GET', 'POST'])
