@@ -255,7 +255,7 @@ Espero que la Disfrutes!""",
 📌1 yogurt firme ligth + 10 almendras
 📌3 tostadas riera con queso ligth
 📌*1 batido Herbalife*
-📌1 fruta + 15 almendras""",'FIL:colacionesinteligentes.jpg']
+📌1 fruta + 15 almendras""",'IMG:colacionesinteligentes.jpg']
     },
     'DIA 0':{
         'messages': ["""Estoy muy contenta de que hayas arrancado con tu plan y estoy para ayudarte! 🎉
