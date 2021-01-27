@@ -370,8 +370,8 @@ https://t.me/joinchat/AAAAAFj9DgDbdMo3AlWPjQ"""]
         'messages': ["""Resultados 👇
 
 https://t.me/joinchat/AAAAAEYwJl1RXZfgnkEw9A""",
-"""Resultados My Team 👇
-https://t.me/joinchat/RiTyNFsyxuVzmKYf"""]
+"""Resultados My Team 👇 
+https://t.me/joinchat/RiTyNG4Iz6mW1k8I"""]
     },
     'MARATON 10 DIAS': {
         'messages': ["""La *MARATÓN DE 10 DIAS* es un reto de transformación orientado a generar disciplinas positivas para lograr un bienestar en tan sólo 10 días.
