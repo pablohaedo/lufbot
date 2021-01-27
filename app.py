@@ -28,17 +28,14 @@ def respond():
         msg_id = update.message.message_id
     except: 
         return 'ok'
-    #bot.sendMessage(chat_id=chat_id, text='bot_welcome', reply_to_message_id=msg_id)
 
-    #return 'ok'
+    # Telegram understands UTF-8, so encode text for unicode compatibility    
+    try:
 
-    # Telegram understands UTF-8, so encode text for unicode compatibility
         if update.message.text is None:
             log('sale por falta de text???')
             bot.sendMessage(chat_id=chat_id, text='Mh... no me llegó el mensaje', reply_to_message_id=msg_id)
             return 'ok'
-
-    try:
         #    chatInfo = bot.getChat(chat_id)
         #    log(chatInfo)
         text = update.message.text.encode('utf-8').decode()
@@ -72,6 +69,7 @@ def respond():
             else:
                 bot.send_message(chat_id=chat_id, text=message, reply_markup=reply_markup)
     except telegram.error.Unauthorized:
+        log('Sale con error unauthorized: {}'.format(update))
         return "ok"
     return 'ok'
 
