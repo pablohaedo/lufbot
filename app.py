@@ -118,7 +118,7 @@ def migrate():
     printList(users)
     return 'ok'
 
-def printList(list):
+def printList(users):
     log('\n### All movies:')
     for movie in users:
         log('{} was released on {}'.format(movie))
