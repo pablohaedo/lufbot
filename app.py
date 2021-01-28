@@ -111,11 +111,18 @@ def migrate():
 
     session = Session()
     users = session.query(User).all()
+    printList(users)
+    users = session.query(Chat).all()
+    printList(users)
+    users = session.query(Message).all()
+    printList(users)
+    return 'ok'
+
+def printList(list):
     log('\n### All movies:')
     for movie in users:
-        log(f'{movie.first_name} was released on {movie.last_name}')
+        log('{} was released on {}'.format(movie))
     log('')
-    return 'ok'
 
 @app.route('/dbStart', methods=['GET'])
 def db():
