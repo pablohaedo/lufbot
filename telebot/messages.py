@@ -73,7 +73,7 @@ ASOCIADO X DESCUENTOS"""],
         "messages": ['IMG:planes/arg/sin/1.jpg','IMG:planes/arg/sin/2.jpg','IMG:planes/arg/sin/3.jpg']
     },
     'ARG CON ALTA': {
-        "messages": ['IMG:planes/arg/con/1.jpg','IMG:planes/arg/con/2.jpg','IMG:planes/arg/con/3.jpg']
+        "messages": ['IMG:planes/arg/c/1.jpg','IMG:planes/arg/c/2.jpg','IMG:planes/arg/c/3.jpg']
     },
     'PLANES CHILE': {
         "messages" : ['Programas SIN ALTA (precio público)', 'Programas CON ALTA'],
@@ -83,7 +83,7 @@ ASOCIADO X DESCUENTOS"""],
         "messages": ['IMG:planes/chi/sin/1.jpg','IMG:planes/chi/sin/2.jpg','IMG:planes/chi/sin/3.jpg']
     },
     'CHI CON ALTA': {
-        "messages": ['IMG:planes/chi/con/1.jpg','IMG:planes/chi/con/2.jpg','IMG:planes/chi/con/3.jpg']
+        "messages": ['IMG:planes/chi/c/1.jpg','IMG:planes/chi/c/2.jpg','IMG:planes/chi/c/3.jpg']
     },
     'PLANES URUGUAY': {
         "messages" : ['Programas SIN ALTA (precio público)', 'Programas CON ALTA'],
@@ -93,7 +93,7 @@ ASOCIADO X DESCUENTOS"""],
         "messages": ['IMG:planes/uru/sin/1.jpg','IMG:planes/uru/sin/2.jpg','IMG:planes/uru/sin/3.jpg']
     },
     'URU CON ALTA': {
-        "messages": ['IMG:planes/uru/con/1.jpg','IMG:planes/uru/con/2.jpg','IMG:planes/uru/con/3.jpg']
+        "messages": ['IMG:planes/uru/c/1.jpg','IMG:planes/uru/c/2.jpg','IMG:planes/uru/c/3.jpg']
     },
 
     "PASOS DE UNA VENTA" : {
