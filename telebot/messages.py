@@ -225,7 +225,8 @@ https://www.flipsnack.com/CF66D6EEFB5/biblioteca-virtual-herbalife-nutrition-arg
 """CATALOGO URUGUAY:
 https://www.flipsnack.com/CF66D6EEFB5/biblioteca-virtual-herbalife-nutrition-uruguay/full-view.html""",
 """CATALOGO CHILE:
-https://www.flipsnack.com/B77F5FDD75E/cat-logo-herbalife-nutrition-2021.html"""]
+https://www.flipsnack.com/B77F5FDD75E/cat-logo-herbalife-nutrition-2021.html""",
+'FIL:guiadepreparacionyconsumo.pdf']
     },
     'PRE PRODUCTO': {
         'messages':['FIL:comienzo.pptx',
@@ -406,7 +407,10 @@ Anímate y pierde de *3 a 5 kilos* en tan sólo 10 Días 💪🏻""",'IMG:marato
     },
     "HLOK" : {
         "messages" : ['INVITADO','FLYERS','Tutoriales asociados'], 
-        "keyboard" : [['INVITADO'],['FLYERS'],['TUTORIALES']]
+        "keyboard" : [['INVITADO','FLYERS'],['TUTORIALES','SISTEMA MTMF']]
+    },
+    "SISTEMA MTMF": {
+        "messages": ['https://hlok.es/system/?sys=5ef6440ad248c']
     },
     "INVITADO" : {
         "messages" : ['''COMO USAR HLOK: 
