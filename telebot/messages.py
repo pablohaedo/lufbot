@@ -406,7 +406,7 @@ Podrás disfrutar de:
 Anímate y pierde de *3 a 5 kilos* en tan sólo 10 Días 💪🏻""",'IMG:maraton1.jpg','IMG:maraton2.jpg','IMG:maraton3.jpg','IMG:maraton4.jpg','IMG:maraton5.jpg','IMG:maraton6.jpg']
     },
     "HLOK" : {
-        "messages" : ['INVITADO','FLYERS','Tutoriales asociados'], 
+        "messages" : ['INVITADO','FLYERS','Tutoriales asociados','SISTEMA MTMF'], 
         "keyboard" : [['INVITADO','FLYERS'],['TUTORIALES','SISTEMA MTMF']]
     },
     "SISTEMA MTMF": {
