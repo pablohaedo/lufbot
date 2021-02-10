@@ -215,9 +215,17 @@ https://youtu.be/Xcu9dOSmCmg"""]
             ['PRE PRODUCTO', 'DIA 0'],
             ['DIA 1','DIA 2','DIA 3'],
             ['DIA 7','DIA 14','DIA 21'],
-            ['MENSUAL','PROGRAMAR MENSAJES'],
+            ['MENSUAL','PROGRAMAR MENSAJES','CATALOGO'],
             ['IDEAS POST','RECETAS','RESULTADO']
             ]
+    },
+    'CATALOGO': {
+        'messages' : ["""CATALOGO ARGENTINA:
+https://www.flipsnack.com/CF66D6EEFB5/biblioteca-virtual-herbalife-nutrition-argentina/full-view.html""",
+"""CATALOGO URUGUAY:
+https://www.flipsnack.com/CF66D6EEFB5/biblioteca-virtual-herbalife-nutrition-uruguay/full-view.html""",
+"""CATALOGO CHILE:
+https://www.flipsnack.com/B77F5FDD75E/cat-logo-herbalife-nutrition-2021.html"""]
     },
     'PRE PRODUCTO': {
         'messages':['FIL:comienzo.pptx',
@@ -248,14 +256,22 @@ Espero que la Disfrutes!""",
             """Súmate al canal de DESAFIO 21D, asi vas viendo los tips y comenzas a poner en práctica en estos dias de adaptación, con este Link  👇 
 (ENVIAR Link Del Canal)""",
             'FIL:guia_para_armar_platos.pdf','FIL:recetas_saladas.pdf','FIL:recetas_dulces.pdf',
-            """*Colaciones inteligentes*
-📌2 huevos duros
-📌2 rodajas de pan lactal de salvado con 100 gramos de jamón cocido natural
-📌1 lata de atún
-📌1 yogurt firme ligth + 10 almendras
-📌3 tostadas riera con queso ligth
-📌*1 batido Herbalife*
-📌1 fruta + 15 almendras""",'IMG:colacionesinteligentes.jpg']
+            """**Colaciones inteligentes**
+
+📌1 huevo duro
+📌50 gramos de jamón cocido natural o queso y tomate 
+📌6 cubos de queso con cherry
+📌1 yogurt firme ligth + 10 almendras o frutos secos. 
+📌un panqueque de claras de huevo. 
+📌1 **batido Herbalife**
+📌1 fruta + 10 almendras
+📌Puñado de frutos secos
+📌Gelatina sola o con fruta
+📌Fruta sola a elección, si es banana que sea pequeña y no todos los días 
+📌Palitos de zanahoria con queso untable 0%
+📌5 aceitunas o 3 mas 5 cubos de queso
+📌Mufin Herbalife o pan de proteína 
+📌Barrita proteica""",'IMG:colacionesinteligentes.jpg']
     },
     'DIA 0':{
         'messages': ["""Estoy muy contenta de que hayas arrancado con tu plan y estoy para ayudarte! 🎉
