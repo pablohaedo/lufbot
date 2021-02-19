@@ -94,20 +94,6 @@ def migrate():
     from telebot.model.message import Message
     from telebot.model.chat import Chat
 
-    # Base.metadata.create_all(engine)
-    # session = Session()
-
-    # ch = Chat()
-    # us = User()
-    # ms = Message()
-    # ms.user = us
-    # ms.chat = ch
-
-    # session.add(ms)
-    
-    # session.commit()
-    # session.close()
-
     session = Session()
     users = session.query(User).all()
     printList(users)
