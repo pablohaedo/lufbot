@@ -191,6 +191,9 @@ def dbSelect():
 
 @app.route("/admin", defaults={'path':'admin'})
 def serve(path):
+    log('entra')
+    log(path)
+    log(app.static_folder)
     return send_from_directory(app.static_folder,'index.html')        
 
 
