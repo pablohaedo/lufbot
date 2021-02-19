@@ -84,9 +84,9 @@ def set_webhook():
     else:
         return "webhook setup failed"
 
-@app.route('/')
-def index():
-    return '.'
+# @app.route('/')
+# def index():
+#     return '.'
 
 @app.route('/migrate', methods=['GET'])
 def migrate():
@@ -189,7 +189,7 @@ def dbSelect():
         log(str(error))
         return '.'
 
-@app.route("/admin", defaults={'path':''})
+@app.route("/", defaults={'path':''})
 def serve(path):
     log('entra')
     log(path)
