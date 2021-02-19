@@ -189,7 +189,7 @@ def dbSelect():
         log(str(error))
         return '.'
 
-@app.route("/admin", defaults={'path':'admin'})
+@app.route("/admin", defaults={'path':''})
 def serve(path):
     log('entra')
     log(path)
