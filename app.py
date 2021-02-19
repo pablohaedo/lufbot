@@ -15,7 +15,7 @@ global TOKEN
 TOKEN = BOT_TOKEN
 bot = telegram.Bot(token=TOKEN)
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='', static_folder='frontend/build')
 
 @app.route('/{}'.format(TOKEN), methods=['POST'])
 def respond():
