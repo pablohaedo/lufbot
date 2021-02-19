@@ -1,5 +1,5 @@
 # import everything
-from flask import Flask, request
+from flask import Flask, request, send_from_directory
 import telegram
 import re
 from time import sleep
@@ -90,7 +90,6 @@ def index():
 
 @app.route('/migrate', methods=['GET'])
 def migrate():
-    ses = Session()
     from telebot.model.user import User
     from telebot.model.message import Message
     from telebot.model.chat import Chat
@@ -189,6 +188,10 @@ def dbSelect():
         log('LLEGA')
         log(str(error))
         return '.'
+
+@app.route("/admin", defaults={'path':'admin'})
+def serve(path):
+    return send_from_directory(app.static_folder,'index.html')        
 
 
 if __name__ == '__main__':
